@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>jj mois</title>
+		<meta name="title" content="jj mois" />
+		<meta name="description" content="jj mois" />
+		<meta property="og:locale" content="en_US"/>
+		<meta property="og:url" content="http://www.jjmois.com" />
+		<meta property="og:title" content="jj mois" />
+		<meta property="og:description" content="jj mois" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="jjmois"/>
+		<link rel="shortcut icon" href="http://www.jjmois.com/favicon.ico">
+		<style>
+			/*Made with love in San Francisco & Bangkok / (c) 20xx Jj Mois*/
+			html, body {
+				font-family: "HelveticaNeueRegular", "Helvetica Neue Regular", "HelveticaNeue-Regular", "Helvetica Neue-Regular", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "Helvetica Neue Roman", Helvetica, Arial, sans-serif;
+				margin: 0;
+				color: black;
+				font-weight: normal;
+				height: 100%;
+				width: 100%;
+			}
+			div {
+				cursor: move;
+				height: 20%;
+				width: 25%;
+				float: left;
+				/*border: 2px transparent solid;*/
+			}
+			.drag {
+				/*background-color: #1bffd2;*/
+				/*border: 2px black solid;*/
+			}
+			div:hover {
+				/*background-color: #1bffd2;*/
+				/*border: 2px black solid;*/
+				box-shadow:inset 0px 0px 0px 6px black;
+			}
+			/*div:hover > a {color: white;}*/
+			h1, h2, h3, h4, h5, h6, p, a {
+				font-weight: normal;
+				font-size: 42px;
+				letter-spacing: -4px;
+				line-height: 0;
+				margin-left: -3px;
+			}
+			h1, .one {
+				margin-top: 16px;
+			}
+			h2, .two {
+				margin-top: 32px;
+			}
+			h3, .three {
+				margin-top: 60px;
+				margin-bottom: -10px;
+			}
+			h4, .four {
+				margin-top: 66px;
+				margin-bottom: -16px;
+			}
+			h5, .five {
+				margin-top: 74px;
+				margin-bottom: 52px;
+			}
+			h6, .six {
+				margin-top: 52px;
+				margin-bottom: 44px;
+			}
+			#sf {
+				margin-top: 50px;
+			}
+			p {
+				margin-top: 60px;
+				line-height: 32px;
+			}
+			#bio {
+				margin-top: 40px;
+				line-height: 38px;
+			}
+			a {
+				margin: 0;
+				padding: 0;
+			}
+			a:link, a:hover, a:visited {
+				text-decoration: none;
+				color: black;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			::selection {
+				background: #1bffd2;
+			}
+			::-moz-selection {
+				background: #1bffd2;
+			}
+			.light {
+				font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeueLight", Helvetica, Arial, sans-serif;
+				font-weight: lighter;
+			}
+			.normal {
+				font-weight: normal;
+			}
+			.bold {
+				font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", "ArialBold", "Arial-Bold", "Arial Bold", Helvetica, Arial, sans-serif;
+				font-weight: bold;
+			}
+			.blacxxx {
+				font-family: "HelveticaNeueBlack", "HelveticaNeue-Black", "Helvetica Neue Black", "HelveticaNeueBlack", "ArialBlack", "Arial-Black", "Arial Black", Helvetica, Arial, sans-serif;
+				font-weight: bolder;
+			}
+			.labs {
+				margin-right: 30px;
+				line-height: 32px;
+			}
+			.recent {
+				margin-right: 30px;
+				margin-top: 60px;
+			}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="js/lettering-0.6.1.min.js"></script>
+		<script>
+			$(function() {
+				$('body').on('mousedown', 'div', function() {
+					$(this).addClass('drag').parents().on('mousemove', function(e) {
+						$('.drag').offset({
+							top: e.pageY - $('.drag').outerHeight() / 2,
+							left: e.pageX - $('.drag').outerWidth() / 2
+						}).on('mouseup', function() {
+							$(this).removeClass('drag');
+						});
+					});
+					e.preventDefault();
+				}).on('mouseup', function() {
+					$('.drag').removeClass('drag');
+				});
+			});
+		</script>
+		<script>
+			$(document).ready(function() {
+				$(".fancy_title").lettering();
+			});
+		</script>
+	</head>
+	<body>
+		<div><a href="#" onclick="freestylin()" class="fancy_title labs">jj mois stuffdes igne r</a></div>
+		<!--
+		<p class="fancy_title" id="bio"></p>
+		-->
+		<!--
+		<p id="sf"><a href="https://www.google.com/maps/place/san+francisco">sf</a> &nbsp;/<a href="https://www.google.com/maps/place/bangkok">bk k</a></p>
+		<a class="fancy_title" href="http://www.tachyus.com">worki ngat tach yu s</a>
+		<h6 class="fancy_title">pr eviousl yat</h6><a class="fancy_title" href="https://18f.gsa.gov">18f</a><a class="fancy_title" href="http://www.opengov.com">&ope ngov</a>
+		-->
+		<div><a class="fancy_title labs" href="https://federalist.18f.gov">fed erali st</a></div>
+		<div><a class="fancy_title labs" href="https://cloud.gov">cl oud .gov</a></div>
+		<div><a class="fancy_title labs" href="https://github.com/18F/brand">18f branding</a></div>
+		<div><a class="fancy_title labs" href="https://paloalto.opengov.com/transparency#/329/breakdown=3AE9231304DF42E6AAF96428E2D2C5B5&accountType=expenses&graph=pie&selection=E1051FA4638D9E526E5F14ECB851EC22&legend_sort=desc&saved_view=null&fiscal_start=earliest&fiscal_end=latest">tra nspare ncy</a></div>
+		<div><a class="fancy_title labs" href="http://www.semiitalic.com/mousai/prototype_v6/Innervisions">m ousai</a></div>
+		<div><a class="fancy_title labs" href="/solidus">solidusst yle</a></div>
+		<div><a class="fancy_title labs" href="/opengovicons">opengovi cons</a></div>
+		<div><a class="fancy_title labs" href="/tremolo">tr emolo</a></div>
+		<div><a class="fancy_title labs" href="/latype">latype</a></div>
+		<div><a class="fancy_title labs" href="/detroit">detroit</a></div>
+		<div><a class="fancy_title labs" href="https://www.kickstarter.com/projects/753619488/all-together-now-women-in-music">wome n inm usi c</a></div>
+		<div><a class="fancy_title labs" href="/rwd-canons">rwd canons</a></div>
+		<div><a class="fancy_title labs five" href="http://www.dribbble.com/semiitalic">dribbble</a></div>
+		<div><a class="fancy_title labs two" href="http://semiitalic.tumblr.com">tumb lr</a></div>
+		<div><a class="fancy_title labs two" href="http://www.instagram.com/goodnightjj">instag ram</a></div>
+		<div><a class="fancy_title labs four" href="http://www.twitter.com/goodnightjj">twi tter</a></div>
+		<div><a class="fancy_title labs three" href="mailto:jj@semiitalic.com?Subject=hey%20jj!" target="_blank">email</a></div>
+	</body>
+	<script>
+		$(document).ready(function(){
+			var styles = ['light', 'normal', 'bold', 'blacxxx'];
+			$("span").each(function(){
+				$(this).toggleClass(styles[~~(Math.random()*styles.length)]);
+			});
+		});
+		function freestylin(){
+			var styles2 = ['light', 'normal', 'bold', 'blacxxx'];
+			$("span").each(function(){
+				$(this).toggleClass(styles2[~~(Math.random()*styles2.length)]);
+			});
+		}
+	</script>
+</html>

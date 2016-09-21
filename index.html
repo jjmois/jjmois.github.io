@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>jj mois</title>
+		<meta name="title" content="jj mois" />
+		<meta name="description" content="jj mois" />
+		<meta property="og:locale" content="en_US"/>
+		<meta property="og:url" content="http://www.jjmois.com" />
+		<meta property="og:title" content="jj mois" />
+		<meta property="og:description" content="jj mois" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="jjmois"/>
+		<meta http-equiv="refresh" content="7" />
+		<link rel="shortcut icon" href="http://www.jjmois.com/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="files/global.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="files/lettering-0.6.1.min.js"></script>
+		<script src="files/drag.js"></script>
+		<script type="text/javascript">
+			var randomcss = {
+				cssfiles : ['1.css','2.css','3.css','4.css','4.css','5.css','6.css','7.css','8.css','9.css','10.css','11.css','12.css','13.css','14.css','15.css','16.css','17.css','18.css'],
+				pathtocss : 'files/',
+				getrandomcss : function() {
+					return this.cssfiles[Math.floor(Math.random()*this.cssfiles.length)];
+				},
+				getlinktag : function() {
+					return '<link rel="stylesheet" type="text/css" href="'+this.pathtocss+this.getrandomcss()+'" />';
+				},
+				printlinktag : function() {
+					document.write(this.getlinktag());
+				}
+			};
+			randomcss.printlinktag();
+
+			$(document).ready(function() {
+				$(".fancy_title").lettering();
+			});
+		</script>
+	</head>
+	<body>
+		<div id="rapper">
+			<div id="top"><a href="#" onclick="freestylin()" class="fancy_title labs" id="drag">jj mois</a></div>
+		</div>
+		<div id="hypeman">
+			<div id="next-top"><a class="fancy_title labs" href="http://www.tachyus.com" target="_blank">tachyus</a></div>
+			<div><a class="fancy_title labs" href="https://cloud.gov" target="_blank">cloud.gov</a></div>
+			<div><a class="fancy_title labs" href="https://standards.usa.gov" target="_blank">us design standards</a></div>
+			<div><a class="fancy_title labs" href="https://federalist.18f.gov" target="_blank">federalist</a></div>
+			<div><a class="fancy_title labs" href="https://pages.18f.gov/brand" target="_blank">18f visual identity</a></div>
+			<div><a class="fancy_title labs" href="https://paloalto.opengov.com/transparency#/329/breakdown=3AE9231304DF42E6AAF96428E2D2C5B5&accountType=expenses&graph=pie&selection=E1051FA4638D9E526E5F14ECB851EC22&legend_sort=desc&saved_view=null&fiscal_start=earliest&fiscal_end=latest" target="_blank">transparency</a></div>
+			<div><a class="fancy_title labs" href="http://www.semiitalic.com/mousai/prototype_v6/Innervisions" target="_blank">mousai</a></div>
+			<div><a class="fancy_title labs" href="/solidus" target="_blank">solidus style</a></div>
+			<div><a class="fancy_title labs" href="/opengovicons" target="_blank">opengovicons</a></div>
+			<div><a class="fancy_title labs" href="/tremolo" target="_blank">tremolo</a></div>
+			<div><a class="fancy_title labs" href="/latype" target="_blank">latype</a></div>
+			<div><a class="fancy_title labs" href="https://www.kickstarter.com/projects/753619488/all-together-now-women-in-music" target="_blank">women in music</a></div>
+			<div><a class="fancy_title labs" href="/detroit" target="_blank">detroit</a></div>
+			<div><a class="fancy_title labs" href="/rwd-canons" target="_blank">rwd canons</a></div>
+			<div id="footer"><a class="fancy_title labs" href="http://www.dribbble.com/semiitalic" target="_blank">dribbble</a></div>
+			<div><a class="fancy_title labs" href="http://www.instagram.com/goodnightjj" target="_blank">instagram</a></div>
+			<div><a class="fancy_title labs" href="http://www.twitter.com/goodnightjj" target="_blank">twitter</a></div>
+			<div id="bottom"><a class="fancy_title labs" href="mailto:jj@semiitalic.com?Subject=hey%20jj!" target="_blank">email</a></div>
+		</div>
+	</body>
+	<script src="files/bold.js"></script>
+</html>

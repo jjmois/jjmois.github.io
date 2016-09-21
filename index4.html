@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>jj mois</title>
+		<meta name="title" content="jj mois" />
+		<meta name="description" content="jj mois" />
+		<meta property="og:locale" content="en_US"/>
+		<meta property="og:url" content="http://www.jjmois.com" />
+		<meta property="og:title" content="jj mois" />
+		<meta property="og:description" content="jj mois" />
+		<meta property="og:type" content="website" />
+		<meta property="og:site_name" content="jjmois"/>
+		<link rel="shortcut icon" href="http://www.jjmois.com/favicon.ico">
+		<style>
+			/*made with <3 in san francisco & bangkok / (c) 2046 jj mois*/
+			html, body {
+				font-family: "HelveticaNeueRegular", "Helvetica Neue Regular", "HelveticaNeue-Regular", "Helvetica Neue-Regular", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "Helvetica Neue Roman", Helvetica, Arial, sans-serif;
+				margin: 0;
+				padding: 0;
+				color: black;
+				font-weight: normal;
+				width: 100%;
+			}
+			div {
+				height: 100px;
+				width: 60%;
+				margin: 0 auto 10px;
+				padding: 30px 60px 10px;
+			}
+			/*
+			.drag, div:hover {box-shadow: inset 10px black;}
+			div:hover > a {color: white;}
+			*/
+			a {
+				font-weight: normal;
+				font-size: 40px;
+				line-height: 32px;
+				margin: 0;
+				padding: 0;
+			}
+			a:link, a:hover, a:visited {
+				text-decoration: none;
+				color: black;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
+			::selection {
+				background: #1bffd2;
+			}
+			::-moz-selection {
+				background: #1bffd2;
+			}
+			.light {
+				font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeueLight", Helvetica, Arial, sans-serif;
+				font-weight: lighter;
+			}
+			.normal {
+				font-family: "HelveticaNeue", "HelveticaNeue", "Helvetica Neue", "HelveticaNeue", Helvetica, Arial, sans-serif;
+				font-weight: normal;
+			}
+			.bold {
+				font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeueBold", "ArialBold", "Arial-Bold", "Arial Bold", Helvetica, Arial, sans-serif;
+				font-weight: bold;
+			}
+			.blacxxx {
+				font-family: "HelveticaNeueBlack", "HelveticaNeue-Black", "Helvetica Neue Black", "HelveticaNeueBlack", "ArialBlack", "Arial-Black", "Arial Black", Helvetica, Arial, sans-serif;
+				font-weight: bolder;
+			}
+			/*justify all*/
+			body {
+				text-align: justify;
+				text-transform: uppercase;
+			}
+			div, a {
+				-ms-text-align-last: justify;
+				-moz-text-align-last: justify;
+				-webkit-text-align-last: justify;
+				text-align-last: justify;
+			}
+			/*top and bottom item*/
+			#top {
+				margin-top: -15px;
+				padding-top: 0;
+				cursor: move;
+			}
+			#bottom {
+				height: 40px;
+				margin-bottom: -100px;
+				padding-bottom: 0;
+			}
+			/*rwd*/
+			@media screen and (max-width: 1024px) {
+				#top {
+					margin-bottom: 60px;
+					padding-top: 0;
+				}
+			}
+			@media screen and (max-width: 524px) {
+				#top {
+					margin-bottom: 80px;
+					padding-top: 0;
+				}
+				.longtext {
+					margin-bottom: 60px;
+					padding-bottom: 0;
+				}
+			}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="js/lettering-0.6.1.min.js"></script>
+		<script>
+			$(function() {
+				$(this).on('mousedown', '#top', function() {
+					$(this).addClass('drag').parents().on('mousemove', function(e) {
+						$('.drag').offset({
+							top: e.pageY - $('.drag').outerHeight() / 2,
+							left: e.pageX - $('.drag').outerWidth() / 2
+						}).on('mouseup', function() {
+							$(this).removeClass('drag');
+						});
+					});
+					e.preventDefault();
+				}).on('mouseup', function() {
+					$('.drag').removeClass('drag');
+				});
+			});
+		</script>
+		<script>
+			$(document).ready(function() {
+				$(".fancy_title").lettering();
+			});
+		</script>
+	</head>
+	<body>
+		<div id="top"><a href="#" onclick="freestylin()" class="fancy_title labs" title="jj•mois•stuff•designer">j j &bull; m o i s &bull; s t u f f &bull; d e s i g n e r</a></div>
+		<!--
+		<p class="fancy_title" id="bio"></p>
+		-->
+		<!--
+		<p><a href="https://www.google.com/maps/place/san+francisco">sf</a> &nbsp;/<a href="https://www.google.com/maps/place/bangkok">bk k</a></p>
+		<a class="fancy_title" href="http://www.tachyus.com">worki ngat tach yu s</a>
+		<h6 class="fancy_title">pr eviousl yat</h6><a class="fancy_title" href="https://18f.gsa.gov">18f</a><a class="fancy_title" href="http://www.opengov.com">&ope ngov</a>
+		-->
+		<div><a class="fancy_title labs" href="https://cloud.gov" target="_blank">c l o u d . g o v</a></div>
+		<div><a class="fancy_title labs" href="https://standards.usa.gov" target="_blank">u s &bull; d e s i g n &bull; s t a n d a r d s</a></div>
+		<div><a class="fancy_title labs" href="https://federalist.18f.gov" target="_blank">f e d e r a l i s t</a></div>
+		<div><a class="fancy_title labs" href="https://github.com/18F/brand" target="_blank">1 8 f &bull; b r a n d i n g</a></div>
+		<div class="longtext"><a class="fancy_title labs" href="https://paloalto.opengov.com/transparency#/329/breakdown=3AE9231304DF42E6AAF96428E2D2C5B5&accountType=expenses&graph=pie&selection=E1051FA4638D9E526E5F14ECB851EC22&legend_sort=desc&saved_view=null&fiscal_start=earliest&fiscal_end=latest" target="_blank">t r a n s p a r e n c y</a></div>
+		<div><a class="fancy_title labs" href="http://www.semiitalic.com/mousai/prototype_v6/Innervisions" target="_blank">m o u s a i</a></div>
+		<div class="longtext"><a class="fancy_title labs" href="/solidus" target="_blank">s o l i d u s &bull; s t y l e</a></div>
+		<div class="longtext"><a class="fancy_title labs" href="/opengovicons" target="_blank">o p e n g o v i c o n s</a></div>
+		<div><a class="fancy_title labs" href="/tremolo" target="_blank">t r e m o l o</a></div>
+		<div><a class="fancy_title labs" href="/latype" target="_blank">l a t y p e</a></div>
+		<div class="longtext"><a class="fancy_title labs" href="https://www.kickstarter.com/projects/753619488/all-together-now-women-in-music" target="_blank">w o m e n &bull; i n &bull; m u s i c</a></div>
+		<div><a class="fancy_title labs" href="/detroit" target="_blank">d e t r o i t</a></div>
+		<div><a class="fancy_title labs" href="/rwd-canons" target="_blank">r w d &bull; c a n o n s</a></div>
+		<div><a class="fancy_title labs" href="http://semiitalic.tumblr.com" target="_blank">t u m b l r</a></div>
+		<div><a class="fancy_title labs" href="http://www.instagram.com/goodnightjj" target="_blank">i n s t a g r a m</a></div>
+		<div><a class="fancy_title labs" href="http://www.dribbble.com/semiitalic" target="_blank">d r i b b b l e</a></div>
+		<div><a class="fancy_title labs" href="http://www.twitter.com/goodnightjj" target="_blank">t w i t t e r</a></div>
+		<div id="bottom"><a class="fancy_title labs" href="mailto:jj@semiitalic.com?Subject=hey%20jj!" target="_blank">e m a i l</a></div>
+	</body>
+	<script>
+		$(document).ready(function(){
+			var styles = ['light', 'normal', 'bold', 'blacxxx'];
+			$("span").each(function(){
+				$(this).toggleClass(styles[~~(Math.random()*styles.length)]);
+			});
+		});
+		function freestylin(){
+			var styles2 = ['light', 'normal', 'bold', 'blacxxx'];
+			$("span").each(function(){
+				$(this).toggleClass(styles2[~~(Math.random()*styles2.length)]);
+			});
+		}
+	</script>
+</html>
