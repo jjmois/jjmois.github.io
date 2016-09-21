@@ -1,0 +1,88 @@
+<html>
+<head>
+
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+
+<style>
+
+@font-face {
+	font-family: 'tremolo';
+	src: url('fonts/tremolo_regular.eot');
+	src: url('fonts/tremolo_regular.eot?#iefix') format('embedded-opentype'), url('font/tremolo_regular.woff') format('woff'), url('fonts/tremolo_regular.ttf') format('truetype'), url('fonts/tremolo_regular.svg#tremolo_regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+style, head {
+	display: block; 
+}
+*/
+
+head {
+	opacity: 0;
+}
+
+body {
+	margin: 60px;
+}
+
+h2 {
+	font-family: arial;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+h1 {
+	text-align: left;
+	font-size: 15px;
+	margin-bottom: 6px;
+	color: salmon;
+}
+
+.box {
+  display: block;
+  margin-bottom: 50px;
+  max-width: 100%;
+  padding: 20px 0 20px 0;
+  color: #444;
+  white-space: pre;
+  border: 1px dashed #ccc;
+  border-right: none;
+  border-left: none;
+  font-size: 70px;
+  word-wrap: normal;
+  overflow: hidden;
+}
+
+.tremolo {font-family: 'tremolo', serif;}
+.la {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	letter-spacing: 12px;
+}
+.nudie {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.tremolo:focus, .la:focus, .nudie:focus {outline: 0;}
+</style>
+</head>
+
+<body>
+
+<h2>SemiItalic Typetester</h2>
+
+<h1>Tremolo</h1>
+<style class="tremolo box" contenteditable>Ferdinand Piech resigns, ending the controversial era at Volkswagen today
+</style>
+<h1>La</h1>
+<style class="la box" contenteditable>Strong earthquake strikes Nepal near its capital, Katmandu - 18 killed
+</style>
+<h1>Nudie</h1>
+<style class="nudie box" contenteditable>System alpha crash for Starbucks leads to free coffee for some folks
+</style>
+
+</body>
+</html>
