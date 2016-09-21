@@ -1,0 +1,47 @@
+body {
+	background-color: #abf0d1;
+	color: white;
+	text-align: center;
+	margin-top: 15vh;
+	height: 100%
+}
+
+a, a:hover, #tempUnit {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 0.3em;
+	top: -34px;
+	left: -7px;
+	position: relative;
+}
+
+i {
+	color: #ffffff;
+	font-size: 5em;
+}
+
+.cityName {
+	color: #ffffff;
+	font-size: 1.5em;
+}
+
+.temperature {
+	font-weight: 200;
+	font-size: 5em;
+	margin-left: 10px;
+}
+
+.tempValue {
+	position: relative;
+	left: 12px;
+}
+
+.description::first-letter {
+	text-transform: capitalize;
+}
+
+h3 {
+	font-weight: normal;
+	font-size: 1.2em;
+	margin-bottom: -10px;
+}
