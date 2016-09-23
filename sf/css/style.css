@@ -7,6 +7,10 @@ body {
 	background-color: transparent;
 }
 
+h1, h2, h3, a, span a {
+	color: white;
+}
+
 a, a:hover, #tempUnit {
 	text-decoration: none;
 	color: white;
