@@ -16,4 +16,4 @@ github ip:
 192.30.252.154
 
 #backup
-goodnightjj.github.io
+http://goodnightjj.github.io
