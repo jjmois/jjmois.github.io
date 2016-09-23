@@ -4,11 +4,12 @@ body {
 	text-align: center;
 	margin-top: 15vh;
 	height: 100%
+	background-color: transparent;
 }
 
 a, a:hover, #tempUnit {
 	text-decoration: none;
-	color: #ffffff;
+	color: white;
 	font-size: 0.3em;
 	top: -34px;
 	left: -7px;
@@ -16,12 +17,12 @@ a, a:hover, #tempUnit {
 }
 
 i {
-	color: #ffffff;
+	color: white;
 	font-size: 5em;
 }
 
 .cityName {
-	color: #ffffff;
+	color: white;
 	font-size: 1.5em;
 }
 
