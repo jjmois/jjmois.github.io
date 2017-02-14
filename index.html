@@ -18,7 +18,6 @@
 		<link rel="stylesheet" type="text/css" href="files/global.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script src="files/lettering-0.6.1.min.js"></script>
-		<script src="files/drag.js"></script>
 		<script type="text/javascript">
 			var randomcss = {
 				cssfiles : ['1.css','2.css','3.css','4.css','5.css','6.css','7.css','8.css','9.css','10.css','11.css','12.css','13.css','14.css','15.css','16.css','17.css','18.css'],
@@ -38,11 +37,15 @@
 			$(document).ready(function() {
 				$(".fancy_title").lettering();
 			});
+
+			$( function() {
+				$( "#draggable" ).draggable();
+			} );
 		</script>
 	</head>
 	<body>
 		<div id="rapper">
-			<div id="top"><a href="#" onclick="freestylin()" class="fancy_title labs" id="drag">jj moi</a></div>
+			<div id="top"><a href="#" onclick="freestylin()" class="fancy_title labs" id="draggable">jj moi</a></div>
 		</div>
 		<div id="hypeman">
 			<div id="next-top"><a class="fancy_title labs" href="https://cloud.gov" target="_blank">cloud.gov</a></div>
