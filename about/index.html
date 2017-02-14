@@ -37,17 +37,18 @@
 			$(document).ready(function() {
 				$(".fancy_title").lettering();
 			});
-
-			$( function() {
-				$( "#draggable" ).draggable();
-			});
 		</script>
 	</head>
 	<body>
 		<div id="rapper">
-			<div id="top"><a href="#" onclick="freestylin()" class="fancy_title labs" id="draggable">i design stuff</a></div>
-			<div><a href="#" onclick="freestylin()" class="fancy_title labs">mostly digital & physical, occasionally spiritual</a></div>
+			<div id="top"><a class="fancy_title labs draggable" href="#" onclick="freestylin()">i design stuff</a></div>
+			<div><a class="fancy_title labs draggable" href="#" onclick="freestylin()">mostly digital & physical, occasionally spiritual</a></div>
 		</div>
+		<script>
+			$( function() {
+				$( ".draggable" ).draggable();
+			});
+		</script>
 	</body>
 	<script src="/files/bold.js"></script>
 </html>
