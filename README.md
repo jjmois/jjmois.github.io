@@ -1,6 +1,6 @@
 #branch
-if username.github.io, use master
-if custom domain url, use gh-pages
+- if username.github.io, use master
+- if custom domain url, use gh-pages
 
 #bluehost
 http://bryancshepherd.com/Setting-up-Bluehost-DNS-for-a-GitHub-Jekyll-blog
