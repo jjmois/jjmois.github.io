@@ -7,7 +7,9 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 		<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 		<script type="text/javascript" src="js/styleswitcher.js"></script>
-		<link rel="stylesheet" href="css/style.css" title="default">
+		<link rel="stylesheet" href="css/default.css" title="default">
+		<link rel="alternate stylesheet" type="text/css" href="css/kindalight.css" title="kindalight" />
+		<link rel="alternate stylesheet" type="text/css" href="css/verylight.css" title="verylight" />
 		<link rel="alternate stylesheet" type="text/css" href="css/hellalight.css" title="hellalight" />
 	</head>
 	<body>
@@ -15,6 +17,8 @@
 			<h1 class="title">sprint 26</h1>
 			<nav>
 				<ul class="filters">
+					<a href="#" onclick="setActiveStyleSheet('kindalight'); return false;">kinda light</a>
+					<a href="#" onclick="setActiveStyleSheet('verylight'); return false;">very light</a>
 					<a href="#" onclick="setActiveStyleSheet('hellalight'); return false;">hella light</a>
 				</ul>
 			</nav>
