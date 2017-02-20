@@ -140,13 +140,25 @@ header .btn {
 /* very light */
 
 body {
-	background-color: red;
+	background-color: white;
 	font-family: 'Varela Round', sans-serif;
-	color: #666666;
+	color: #666;
 }
 
-body, .cards {
-	background-color: #f8f8f8;
+.cards {
+	background-color: white;
+}
+
+.cards li {
+	background-color: white;
+}
+
+header {
+	background-color: #fbfbfb;
+	border-bottom: 1px #fbfbfb solid;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(204,204,204,0.5);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(204,204,204,0.5);
+	box-shadow: 0px 2px 30px 0px rgba(204,204,204,0.5);
 }
 
 h1 {
@@ -176,7 +188,23 @@ nav .filters {
 .filters a {
 	display: inline-block;
 	padding: 10px;
-	color: #4fc6d9;
+	color: #666;
+}
+
+.filters a, .filters a:hover, a.links, a.link:hover {
+	text-decoration: none;
+}
+
+.filters a:hover, a.links:hover {
+	opacity: 0.6;
+}
+
+#shadow {
+	opacity: 1.0;
+}
+
+#flat, #pure {
+	opacity: 0.6;
 }
 
 .col-sm-4 h3, .col-sm-4 ul {
@@ -194,11 +222,31 @@ nav .filters {
 	margin-bottom: 15px;
 }
 
+.addtask {
+	float: right;
+	color: #ccc;
+	cursor: default;
+}
+
+.addtask:hover {
+	color: #ccc;
+	cursor: default;
+	text-decoration: none;
+}
+
 .cards li {
 	background-color: white;
-	border: none;
-	box-shadow: 6px 6px 0px #e0e0e0;
+	border: 1px white solid;
+	-webkit-box-shadow: 0px 2px 30px 0px rgba(204,204,204,0.5);
+	-moz-box-shadow: 0px 2px 30px 0px rgba(204,204,204,0.5);
+	box-shadow: 0px 2px 30px 0px rgba(204,204,204,0.5);
 	margin-bottom: 25px;
+}
+
+.cards li:hover {
+	border: 1px white solid;
+	cursor: pointer;
+	opacity: 0.7;
 }
 
 .cards li dl {
@@ -207,14 +255,17 @@ nav .filters {
 
 .cards li .salmon {
 	color: #f597b2;
+	font-size: 12px;
 }
 
 .cards li .mint {
 	color: #69dead;
+	font-size: 12px;
 }
 
 #done dt, #done dd {
 	opacity: 0.6;
+	text-decoration: line-through;
 }
 
 ul img {
