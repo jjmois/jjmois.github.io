@@ -142,11 +142,23 @@ header .btn {
 body {
 	background-color: #fbfbfb;
 	font-family: 'Varela Round', sans-serif;
-	color: #666666;
+	color: #666;
 }
 
-body, .cards {
+.cards {
+	background-color: #fbfbfb;
+}
+
+.cards li {
 	background-color: #f8f8f8;
+}
+
+header {
+	background-color: #fbfbfb;
+	border-bottom: 1px #ddd solid;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
 }
 
 h1 {
@@ -176,7 +188,23 @@ nav .filters {
 .filters a {
 	display: inline-block;
 	padding: 10px;
-	color: #4fc6d9;
+	color: #666;
+}
+
+.filters a, .filters a:hover, a.links, a.link:hover {
+	text-decoration: none;
+}
+
+.filters a:hover, a.links:hover {
+	opacity: 0.6;
+}
+
+#flat {
+	opacity: 1.0;
+}
+
+#shadow, #pure {
+	opacity: 0.6;
 }
 
 .col-sm-4 h3, .col-sm-4 ul {
@@ -194,11 +222,31 @@ nav .filters {
 	margin-bottom: 15px;
 }
 
+.addtask {
+	float: right;
+	color: #ccc;
+	cursor: default;
+}
+
+.addtask:hover {
+	color: #ccc;
+	cursor: default;
+	text-decoration: none;
+}
+
 .cards li {
 	background-color: white;
-	border: none;
+	border: 1px white solid;
+	-webkit-box-shadow: 6px 6px 0px #e0e0e0;
+	-moz-box-shadow: 6px 6px 0px #e0e0e0;
 	box-shadow: 6px 6px 0px #e0e0e0;
 	margin-bottom: 25px;
+}
+
+.cards li:hover {
+	border: 1px white solid;
+	cursor: pointer;
+	opacity: 0.7;
 }
 
 .cards li dl {
@@ -207,14 +255,17 @@ nav .filters {
 
 .cards li .salmon {
 	color: #f597b2;
+	font-size: 12px;
 }
 
 .cards li .mint {
 	color: #69dead;
+	font-size: 12px;
 }
 
 #done dt, #done dd {
 	opacity: 0.6;
+	text-decoration: line-through;
 }
 
 ul img {
