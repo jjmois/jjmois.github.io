@@ -5,25 +5,30 @@
 		<title>kanban</title>
 		<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-		<link rel='stylesheet prefetch' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+		<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
+		<script src='http://code.jquery.com/ui/1.11.4/jquery-ui.js'></script>
 		<link href="css/default.css" rel="stylesheet" type="text/css">
-		<link href="css/style-hellalight.css" rel="alternate stylesheet" type="text/css" title="alternate">
-		<script type="text/javascript" src="js/styleswitcher.js"></script>
+		<link href="css/verylight.css" rel="alternate stylesheet" type="text/css" title="alternate" disabled="">
+		<link href="css/hellalight.css" rel="alternate stylesheet" type="text/css" title="alternated" disabled="">
+		<script src="js/styleswitch.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<header class="clearfix">
 			<h1 class="title">sprint 26</h1>
 			<nav>
 				<ul class="filters">
-					<a href="javascript:chooseStyle('none', 60)">Default Style</a>
-					<a href="javascript:chooseStyle('alternate', 60)">hella light</a>
+					<a class="links" id="flat" href="javascript:chooseStyle('none', 60)">flat</a>
+					<a class="links" id="shadow" href="javascript:chooseStyle('alternate', 60)">shadow</a>
+					<a class="links" id="pure" href="javascript:chooseStyle('alternated', 60)">pure</a>
 				</ul>
 			</nav>
 		</header>
 		<section class="container">
 			<div class="row">
 				<div class="col-xs-6 col-sm-4" id="next">
-					<h3>next</h3>
+					<h3>next<a href="#" class="addtask">+</a></h3>
 					<ul class="cards">
 						<li>
 							<dl>
@@ -36,7 +41,7 @@
 						</li>
 						<li>
 							<dl>
-								<dt class="mint">geo</dt>
+								<dt class="mint">ui geo</dt>
 								<dd>map includes path layer from surface to subsurface location</dd>
 							</dl>
 						</li>
@@ -50,7 +55,7 @@
 						</li>
 						<li>
 							<dl>
-								<dt class="salmon">dataviz bugs</dt>
+								<dt class="mint">dataviz</dt>
 								<dd>change fraction quality to plot as 0-100% instead of 0.0 - 1</dd>
 							</dl>
 						</li>
@@ -63,7 +68,7 @@
 					</ul>
 				</div>
 				<div class="col-xs-6 col-sm-4" id="now">
-					<h3>now (max 3)</h3>
+					<h3>now (max 3)<a href="#" class="addtask">+</a></h3>
 					<ul class="cards">
 						<li>
 							<dl>
@@ -93,12 +98,18 @@
 					</ul>
 				</div>
 				<div class="col-xs-6 col-sm-4" id="review">
-					<h3>review</h3>
+					<h3>review<a href="#" class="addtask">+</a></h3>
 					<ul class="cards" id="done">
 						<li>
 							<dl>
 								<dt class="mint">ui</dt>
 								<dd>show last uploaded date and enable its sorting</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt class="salmon">testing</dt>
+								<dd>ensure subsurface animations requirements are documented/understood</dd>
 							</dl>
 						</li>
 						<li>
@@ -131,19 +142,10 @@
 								<dd>text contrast audit</dd>
 							</dl>
 						</li>
-						<li>
-							<dl>
-								<dt class="salmon">testing</dt>
-								<dd>ensure subsurface animations requirements are documented/understood</dd>
-							</dl>
-						</li>
 					</ul>
 				</div>
 			</div>
 		</section>
-		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-		<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-		<script src='http://code.jquery.com/ui/1.11.4/jquery-ui.js'></script>
-		<script src="js/index.js"></script>
 	</body>
+	<script src="js/index.js"></script>
 </html>
