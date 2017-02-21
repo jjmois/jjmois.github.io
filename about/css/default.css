@@ -159,6 +159,7 @@ header {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
+	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
 }
 
 #login {
