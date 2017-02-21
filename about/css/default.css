@@ -159,7 +159,7 @@ header {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+	background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
 
 #login {
@@ -177,6 +177,7 @@ h1 {
 	text-align: center;
 	font-size: 32px;
 	padding-top: 30px;
+	color: white;
 }
 
 nav {
