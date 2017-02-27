@@ -1,42 +1,23 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<title>Chats</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<title>Tiip</title>
 	<link rel="stylesheet" id="chats-style-css" href="./talkturkey/style.css" type="text/css" media="all">
-		
 </head>
-
 <body class="single single-post postid-234 single-format-standard group-blog">
 	<div id="page" class="site">
 		<div id="content" class="site-content">
-
 			<div class="header">
-				<div class="left-title" id="left-title">
-					<h1>Chats</h1>
-				</div>
-				
-				<div class="back">
-					<a href="#" id="back-button" onclick="toggleChats();return false;"><img src="./talkturkey/back.png"></a>
-				</div>
-				
+				<div class="left-title" id="left-title"><h1>Chats</h1></div>
+				<div class="back"><a href="#" id="back-button" onclick="toggleChats();return false;"><img src="./talkturkey/back.png"></a></div>
 				<div class="right-title" id="right-title">
 					<h1>Adam</h1><h2>Active 7 hours ago</h2>
 				</div>
-				
-				<!--
-				<div class="info">
-					<a href="http://talkturkey.chat/hoyd-breton/#" id="info-button" onclick="openInfoDrawer();return false;"><img src="./talkturkey/info.png"></a>
-					<a href="http://talkturkey.chat/hoyd-breton/#" id="info-button-active" onclick="closeInfoDrawer();return false;"><img src="./talkturkey/info_active.png"></a>
-				</div>
-				-->
 			</div>
-
 			<!-- CONTAINER -->
-
 			<div class="tweet-drawer" id="tweet-drawer">
 				<input type="text" name="tweet" id="inputTweet" autofocus="" placeholder="Type a messege...">
 				<input type="submit" id="submitClick" value="❤️️" style="color: pink;" disabled="disabled">
@@ -52,13 +33,18 @@
 						<div class="avatar" style="background-image: url('img/profile-tiip.jpg')"></div>
 						<h1>Tiip<span class="buddydate">Thu</span></h1><h2>❤️️</h2>
 					</a>
-					<!-- selected buddy -->
+					<!-- start selected buddy -->
 					<a class="buddy selected" href="adam.html#8428109071">
 						<div class="avatar" style="background-image: url('img/profile-adam.jpg') "></div>
 						<h1>Adam<span class="buddydate">Wed</span></h1><h2>wtf?</h2>
 					</a>
 					<!-- end selected buddy -->
+					<a class="buddy" href="dooj.html#0817927825">
+						<div class="avatar" style="background-image: url('img/profile-dooj.jpg') "></div>
+						<h1>DOoj<span class="buddydate">Nov 30, 16</span></h1><h2>👌</h2>
+					</a>
 				</div>
+				<!-- end BUDDY LIST -->
 				<!-- chat thread -->
 				<div class="chat-thread" id="chat-thread">
 					<div class="chat-containerclass=" post-234="" post="" type-post="" status-publish="" format-standard="" hentry="" category-uncategorized""="">
@@ -79,7 +65,7 @@
 						<div class="bubble-wrapper enter-window in-view">
 							<img src="img/profile-tiip.jpg" class="chathead-dummy">
 							<div class="bubble Author1 youtube last">
-								<p>im definitely going</p>
+								<p>in definitely going</p>
 							</div>
 						</div>
 						<div class="bubble-wrapper enter-window in-view">
@@ -116,25 +102,7 @@
 					</div>
 				</div>
 				<!-- end of chat thread -->
-				<!--
-				<div class="chat-drawer" id="chat-drawer" style="">
-					<div class="more-info">
-						<div class="avatar" style="background-image: url('img/profile-adam.jpg')">
-						</div>
-						<h1>Tiip</h1>
-						<h2>@tiip</h2>
-					</div>
-					<p>Tiip is a morning person ☀️. She’s also a mixed-media artist, currently at Etsy. When not consulting, she’s working with cats and her recent Kickstarter.</p>
-					<div class="site-description">
-						<h2>About This Site</h2>
-						<p>Talk Turkey is an attempt to have authentic conversations in public. Gabriel Valdivia interviews people over instant message and posts the conversations insitu on this site.</p>
-						<p class="disclaimer">This website is not affiliated with, maintained, authorized, endorsed or sponsored by any real messaging service.</p>
-					</div>
-				</div>
-			</div>
-			-->
 			<!-- end of Chat Container -->
-
 			<script>
 				function toggleChats() {
 					document.getElementById("tweet-drawer").style.display = "none";
@@ -146,17 +114,12 @@
 					document.getElementById("info-button").style.display = "none";
 				}
 			</script>
-
 		</div><!-- #content -->
-
 		<script src="./talkturkey/jquery.js"></script>
-		
 	</div><!-- #page -->
-
 	<script type="text/javascript" src="./talkturkey/navigation.js"></script>
 	<script type="text/javascript" src="./talkturkey/skip-link-focus-fix.js"></script>
 	<script type="text/javascript" src="./talkturkey/comment-reply.min.js"></script>
 	<script type="text/javascript" src="./talkturkey/wp-embed.min.js"></script>
-
 </body>
 </html>
