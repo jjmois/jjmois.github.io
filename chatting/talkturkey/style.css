@@ -1830,7 +1830,11 @@ img.screenshot {
 	width: 300px;
 }
 
-
+.buddydate {
+	color: #aaa;
+	font-size: 12px;
+	margin-top: 10px;
+}
 
 
 
