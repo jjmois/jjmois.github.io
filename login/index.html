@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<title>×-</title>
+	<title>◬</title>
 	<link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
 	<style type="text/css">
 		@font-face {
@@ -21,19 +21,33 @@
 			font-family: 'futurama_alien_alphabet_oneRg', monospace;
 			text-shadow: 0 0 2px rgba(0, 255, 205, 1), 0 0 4px rgba(0, 255, 205, 0.3);
 		}
-				@-webkit-keyframes flippin {
-				  from {
-				    -webkit-transform: rotateY(0deg);
-				  }
-				  to { 
-				    -webkit-transform: rotateY(360deg);
-				  }
-				}
 		#keyboard img:hover {
-			-webkit-animation-name:             flippin; 
-			-webkit-animation-duration:         5s; 
+			-webkit-animation-name: flippin 5s infinite;
+			-moz-animation-name: flippin 5s infinite;
+			-o-animation-name: flippin 5s infinite;
+			animation-name: flippin 5s infinite;
+			/*
+			-webkit-animation-name:             flippin;
+			-webkit-animation-duration:         5s;
 			-webkit-animation-iteration-count:  infinite;
 			-webkit-animation-timing-function:  linear;
+			*/
+		}
+		@-webkit-keyframes flippin {
+			from {-webkit-transform: rotateY(0deg);}
+			to {-webkit-transform: rotateY(360deg);}
+		}
+		@-moz-keyframes flippin {
+			from {-moz-transform: rotateY(0deg);}
+			to {-moz-transform: rotateY(360deg);}
+		}
+		@-o-keyframes flippin {
+			from {-o-transform: rotateY(0deg);}
+			to {-o-transform: rotateY(360deg);}
+		}
+		@keyframes flippin {
+			from {transform: rotateY(0deg);}
+			to {transform: rotateY(360deg);}
 		}
 		#keyboard {
 			border: 1px rgba(0, 255, 205, 0) solid;
@@ -111,7 +125,6 @@
 	<script type="text/javascript" src="js/typed.js"></script>
 	<script>
 		$(function(){
-
 			$(function(){
 				var weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 				var dayOfWeekIndex = (new Date()).getDay();
@@ -166,74 +179,74 @@
 		<a class="keys" id="key15" href="#"><img src="img/ko.png" /><audio id="faster2" preload="auto"><source src="aux/15.wav" /></audio></a>
 		<a class="keys" id="key16" href="#"><img src="img/kp.png" /><audio id="stronger2" preload="auto"><source src="aux/16.wav" /></audio></a>
 	</div>	
-<div id="access">
-	<a href="#">acesda void</a>
-</div>
+	<div id="access">
+		<a href="#">acesda void</a>
+	</div>
 </body>
-<script type="text/javascript">
-	var audio1 = $("#workit")[0];
-	$("#key1").mouseenter(function() {
-		audio1.play();
-	});
-	var audio2 = $("#makeit")[0];
-	$("#key2").mouseenter(function() {
-		audio2.play();
-	});
-	var audio3 = $("#doit")[0];
-	$("#key3").mouseenter(function() {
-		audio3.play();
-	});
-	var audio4 = $("#makeus")[0];
-	$("#key4").mouseenter(function() {
-		audio4.play();
-	});
-	var audio5 = $("#harder")[0];
-	$("#key5").mouseenter(function() {
-		audio5.play();
-	});
-	var audio6 = $("#better")[0];
-	$("#key6").mouseenter(function() {
-		audio6.play();
-	});
-	var audio7 = $("#faster")[0];
-	$("#key7").mouseenter(function() {
-		audio7.play();
-	});
-	var audio8 = $("#stronger")[0];
-	$("#key8").mouseenter(function() {
-		audio8.play();
-	});
-	var audio9 = $("#morethan")[0];
-	$("#key9").mouseenter(function() {
-		audio9.play();
-	});
-	var audio10 = $("#hour")[0];
-	$("#key10").mouseenter(function() {
-		audio10.play();
-	});
-	var audio11 = $("#our")[0];
-	$("#key11").mouseenter(function() {
-		audio11.play();
-	});
-	var audio12 = $("#never")[0];
-	$("#key12").mouseenter(function() {
-		audio12.play();
-	});
-	var audio13 = $("#harder2")[0];
-	$("#key13").mouseenter(function() {
-		audio13.play();
-	});
-	var audio14 = $("#better2")[0];
-	$("#key14").mouseenter(function() {
-		audio14.play();
-	});
-	var audio15 = $("#faster2")[0];
-	$("#key15").mouseenter(function() {
-		audio15.play();
-	});
-	var audio16 = $("#stronger2")[0];
-	$("#key16").mouseenter(function() {
-		audio16.play();
-	});
-</script>
+	<script type="text/javascript">
+		var audio1 = $("#workit")[0];
+		$("#key1").mouseenter(function() {
+			audio1.play();
+		});
+		var audio2 = $("#makeit")[0];
+		$("#key2").mouseenter(function() {
+			audio2.play();
+		});
+		var audio3 = $("#doit")[0];
+		$("#key3").mouseenter(function() {
+			audio3.play();
+		});
+		var audio4 = $("#makeus")[0];
+		$("#key4").mouseenter(function() {
+			audio4.play();
+		});
+		var audio5 = $("#harder")[0];
+		$("#key5").mouseenter(function() {
+			audio5.play();
+		});
+		var audio6 = $("#better")[0];
+		$("#key6").mouseenter(function() {
+			audio6.play();
+		});
+		var audio7 = $("#faster")[0];
+		$("#key7").mouseenter(function() {
+			audio7.play();
+		});
+		var audio8 = $("#stronger")[0];
+		$("#key8").mouseenter(function() {
+			audio8.play();
+		});
+		var audio9 = $("#morethan")[0];
+		$("#key9").mouseenter(function() {
+			audio9.play();
+		});
+		var audio10 = $("#hour")[0];
+		$("#key10").mouseenter(function() {
+			audio10.play();
+		});
+		var audio11 = $("#our")[0];
+		$("#key11").mouseenter(function() {
+			audio11.play();
+		});
+		var audio12 = $("#never")[0];
+		$("#key12").mouseenter(function() {
+			audio12.play();
+		});
+		var audio13 = $("#harder2")[0];
+		$("#key13").mouseenter(function() {
+			audio13.play();
+		});
+		var audio14 = $("#better2")[0];
+		$("#key14").mouseenter(function() {
+			audio14.play();
+		});
+		var audio15 = $("#faster2")[0];
+		$("#key15").mouseenter(function() {
+			audio15.play();
+		});
+		var audio16 = $("#stronger2")[0];
+		$("#key16").mouseenter(function() {
+			audio16.play();
+		});
+	</script>
 </html>
