@@ -233,7 +233,7 @@ var tchart = d3.select('#tchart').attr('width', tbarWidth * tdata.length).attr('
 var tbar = tchart.selectAll('g').data(tdata).enter().append('g').attr('transform', function (d, i) {
   return 'translate(' + (i * tbarWidth + tbarWidth) + ', ' + theight + ') rotate(180)';
 }).attr('fill', function (d, i) {
-	return 'rgba(10,200,120,1)';
+	return 'rgba(10,200,120,0.8)';
 });
 
 tbar.append('rect').attr('width', tbarWidth - 2).attr('height', tscale);
