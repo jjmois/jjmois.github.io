@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<title>drinking</title>
+		<style>
+			h1 {
+				font-family: Georgia, Times, Times New Roman, serif;
+				font-style: italic;
+				font-weight: bold;
+				font-size: 16px;
+				margin-top: 30px;
+				margin-left: 20px;
+			}
+			.drinks {
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
+			#latte {
+				color: rgba(195,155,110,1);
+			}
+			#slash {
+				color: rgba(190,190,190,1);
+			}
+			#tea {
+				color: rgba(10,200,120,1);
+			}
+			h2 {
+				font-family: Georgia, Times, Times New Roman, serif;
+				font-style: italic;
+				font-weight: normal;
+				font-size: 11px;
+				margin: -6px 20px;
+			}
+			#daily {
+				color: rgba(190,190,190,1);
+			}
+		</style>
+	</head>
+	<body>
+		<h1><span id="latte">Lattè</span> <span id="slash">/</span> <span id="tea">Green Tea</span></h1>
+		<h2 id="daily">Daily Consumption</h2>
+		<svg class="drinks" id="chart"></svg>
+		<svg class="drinks" id="tchart"></svg>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
+		<script src="index.js"></script>
+	</body>
+</html>
