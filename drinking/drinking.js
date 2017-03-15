@@ -113,7 +113,7 @@ var chart = d3.select('#chart').attr('width', barWidth * data.length).attr('heig
 var bar = chart.selectAll('g').data(data).enter().append('g').attr('transform', function (d, i) {
   return 'translate(' + (i * barWidth + barWidth) + ', ' + height + ') rotate(180)';
 }).attr('fill', function (d, i) {
-	return 'rgba(195,155,110,1)';
+	return 'rgba(195,155,110,0.7)';
 });
 
 bar.append('rect').attr('width', barWidth - 2).attr('height', scale);
