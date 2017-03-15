@@ -37,6 +37,20 @@
 			#daily {
 				color: rgba(190,190,190,1);
 			}
+			@keyframes mover {
+				0% {
+					transform: translateX(-100%);
+				}
+				100% {
+					transform: translateX(0);
+				}
+			}
+			#chart {
+				-webkit-animation: mover 5s 1;
+				-moz-animation:    mover 5s 1;
+				-o-animation:      mover 5s 1;
+				animation:         mover 5s 1;
+			}
 		</style>
 	</head>
 	<body>
