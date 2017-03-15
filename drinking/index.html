@@ -37,27 +37,32 @@
 			#daily {
 				color: rgba(190,190,190,1);
 			}
+			svg {
+				-webkit-animation-name: mover;
+				-webkit-animation-duration: 5s; /* or: Xms */
+				-webkit-animation-iteration-count: 1;
+				-webkit-animation-direction: alternate; /* or: normal */
+				-webkit-animation-timing-function: ease-out; /* or: ease-in, ease-in-out, linear */
+				-webkit-animation-fill-mode: both; /* or: backwards, both, none */
+				-webkit-animation-delay: -1s; /* or: Xms */
+			}
 			@keyframes mover {
 				0% {
-					transform: translateX(-100%);
+					transform: translateX(20%);
 				}
 				100% {
-					transform: translateX(0);
+					transform: translateX(-50%);
 				}
-			}
-			#chart {
-				-webkit-animation: mover 5s 1;
-				-moz-animation:    mover 5s 1;
-				-o-animation:      mover 5s 1;
-				animation:         mover 5s 1;
 			}
 		</style>
 	</head>
 	<body>
 		<h1><span id="latte">Lattè</span> <span id="slash">/</span> <span id="tea">Green Tea</span></h1>
 		<h2 id="daily">Daily Consumption</h2>
+		<div id="move">
 		<svg class="drinks" id="chart"></svg>
 		<svg class="drinks" id="tchart"></svg>
+		</div>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js'></script>
 		<script src="drinking.js"></script>
 	</body>
