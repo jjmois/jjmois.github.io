@@ -8,6 +8,10 @@ a {
 	letter-spacing: 1px;
 	display: inline-block;
 }
+a:link, a:hover, a:visited {
+	text-decoration: none;
+	color: red;
+}
 #top {
 	margin-top: 220px;
 }
