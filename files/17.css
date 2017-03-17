@@ -5,10 +5,7 @@ body {
     -o-transform: rotate(7deg);
     transform: rotate(7deg);
     overflow-x: hidden;
-}
-a:link, a:hover, a:visited {
-	text-decoration: none;
-	color: red;
+    background-color: #42f48c;
 }
 div {
 	margin: 0 0 -3px 0;
