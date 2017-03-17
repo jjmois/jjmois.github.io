@@ -12,6 +12,10 @@ a {
 	line-height: 650px;
 	letter-spacing: -40px;
 }
+a:link, a:hover, a:visited {
+	text-decoration: none;
+	color: red;
+}
 #top {
 	margin-top: 50px;
 }
