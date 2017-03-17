@@ -1,9 +1,14 @@
 /*made with <3 in san francisco & bangkok / (c) 2046 jj mois*/
 body {
-	-ms-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
     -webkit-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
     transform: rotate(7deg);
     overflow-x: hidden;
+}
+a:link, a:hover, a:visited {
+	text-decoration: none;
+	color: red;
 }
 div {
 	margin: 0 0 -3px 0;
