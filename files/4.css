@@ -7,6 +7,10 @@ a {
 	line-height: 90px;
 	letter-spacing: -4px;
 }
+a:link, a:hover, a:visited {
+	text-decoration: none;
+	color: blue;
+}
 #rapper {
 	margin-top: 70px;
 }
