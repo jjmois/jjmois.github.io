@@ -1,4 +1,7 @@
 /*made with <3 in san francisco & bangkok / (c) 2046 jj mois*/
+body {
+	background-color: black;
+}
 div {
 	margin: 0 0 -3px 0;
 	display: block;
@@ -14,6 +17,10 @@ a {
 	line-height: 60px;
 	letter-spacing: -2px;
 	display: inline-block;
+}
+a:link, a:hover, a:visited {
+	text-decoration: none;
+	color: white;
 }
 #top {
 	margin-top: 27px;
