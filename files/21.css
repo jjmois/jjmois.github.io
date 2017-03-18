@@ -18,6 +18,9 @@ a:link, a:hover, a:visited {
 	text-decoration: none;
 	color: #ff6666;
 }
+a:hover {
+	text-decoration: underline;
+}
 #top {
 	font-size: 8px;
 	margin-top: 100px;
