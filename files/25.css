@@ -12,7 +12,6 @@ a {
 	display: inline-block;
 }
 a:link, a:hover, a:visited {
-	text-decoration: none;
 	color: red;
 	-webkit-text-fill-color: transparent;
 	-moz-text-fill-color: transparent;
