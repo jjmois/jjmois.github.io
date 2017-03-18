@@ -1,6 +1,5 @@
-/*made with <3 in san francisco & bangkok / (c) 2046 jj mois*/
 div {
-	margin: 0 0 45px 0;
+	margin: 0 0 33px 0;
 	display: block;
 }
 #rapper, #hypeman {
@@ -13,7 +12,6 @@ a {
 	display: inline-block;
 }
 a:link, a:hover, a:visited {
-	text-decoration: none;
 	color: red;
 	-webkit-text-fill-color: transparent;
 	-moz-text-fill-color: transparent;
