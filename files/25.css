@@ -13,6 +13,7 @@ a {
 }
 a:link, a:hover, a:visited {
 	color: red;
+	text-decoration: none;
 	-webkit-text-fill-color: transparent;
 	-moz-text-fill-color: transparent;
 	-o-text-fill-color: transparent;
@@ -25,6 +26,9 @@ a:link, a:hover, a:visited {
 	-moz-text-stroke-color: red;
 	-o-text-stroke-color: red;
 	text-stroke-color: red;
+}
+a:hover {
+	text-decoration: underline;
 }
 #top {
 	margin-top: 35px;
