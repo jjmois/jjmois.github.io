@@ -161,17 +161,6 @@ header {
 	box-shadow: none;
 }
 
-#login {
-	float: right;
-	color: #aaa;
-	font-size: 12px;
-	text-decoration: none;
-}
-
-#login:hover {
-	opacity: 0.7;
-}
-
 h1 {
 	text-align: center;
 	font-size: 32px;
