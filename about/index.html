@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>About</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" id="chats-style-css" href="./talkturkey/style.css" type="text/css" media="all">
+	<style>
+		/* remove tweetdeck */
+		.chat-thread {margin-bottom: 0;}
+		hr {margin: 0; padding: 0;}
+		#bio, .bio-normal, #bio-wild {font-size: 42px; padding: 0 150px; line-height: 1.2; max-width: 1050px; margin: 0 auto;}
+		.bio-normal, #bio-wild {font-size: 18px; line-height: 1.3;}
+		.bio-normal {padding-bottom: 20px;}
+		#bio-wild {padding-top: 25px;}
+		.chat-thread a {text-decoration: none;}
+		.chat-thread a:hover {text-decoration: underline;}
+		#email {cursor: not-allowed;}
+		.chat-thread a, .chat-thread a:hover, .chat-thread a:active, .chat-thread a:focus {outline: none;}
+		@media screen and (max-width: 1200px) {
+			#bio, .bio-normal, #bio-wild {padding: 0 30px;}
+		}
+	</style>
+</head>
+<body class="single single-post postid-234 single-format-standard group-blog">
+	<div id="page" class="site">
+		<div id="content" class="site-content">
+			<div class="header">
+				<div class="left-title" id="left-title"><h1>About</h1></div>
+				<div class="back"><a href="#" id="back-button" onclick="toggleChats();return false;"><img src="./talkturkey/back.png"></a></div>
+				<div class="right-title" id="right-title">
+					<h1>Blurbing</h1><h2>Active 6 hours ago</h2>
+				</div>
+				<a href="http://www.jjmois.com/login" id="login">Log In</a>
+			</div>
+			<!-- CONTAINER -->
+			<div class="chat-container">
+				<!-- BUDDY LIST -->
+				<div class="buddy-list" id="buddy-list">
+					<a class="buddy buddy-no selected" href="blurbing.html">
+						<div class="avatar-no" style="background-image: url('img/profile-item.jpg') "></div>
+						<h1>Blurbing</h1><h2>Bio</h2>
+					</a>
+					<a class="buddy buddy-no" href="sprinting.html">
+						<div class="avatar-no" style="background-image: url('img/profile-item.jpg') "></div>
+						<h1>Sprinting</h1><h2>Show critical metadata for each plan</h2>
+					</a>
+					<a class="buddy buddy-no" href="meeting.html">
+						<div class="avatar-no" style="background-image: url('img/profile-item.jpg') "></div>
+						<h1>Meeting</h1><h2>7pm Chris @Koja</h2>
+					</a>
+					<a class="buddy buddy-no" href="reading.html">
+						<div class="avatar-no" style="background-image: url('img/profile-item.jpg') "></div>
+						<h1>Reading</h1><h2>Kintsugi</h2>
+					</a>
+					<a class="buddy buddy-no" href="listening.html">
+						<div class="avatar-no" style="background-image: url('img/profile-item.jpg') "></div>
+						<h1>Listening</h1><h2>Daughter - Youth</h2>
+					</a>
+					<a class="buddy buddy-no" href="spending.html">
+						<div class="avatar-no" style="background-image: url('img/profile-item.jpg') "></div>
+						<h1>Spending</h1><h2>Cajun Crab</h2>
+					</a>
+					<a class="buddy buddy-no" href="drinking.html">
+						<div class="avatar-no" style="background-image: url('img/profile-item.jpg') "></div>
+						<h1>Drinking</h1><h2>Tall Latté</h2>
+					</a>
+					<hr />
+					<!-- recent chats -->
+					<p class="nav-title">Recent Chats</p>
+					<a class="buddy" href="ant.html#9812414562">
+						<div class="avatar" style="background-image: url('img/profile-ant.jpg') "></div>
+						<h1>Ant<span class="buddydate">Sun</span></h1><h2>You: jaa</h2>
+					</a>
+					<a class="buddy" href="tiip.html#1461356322">
+						<div class="avatar" style="background-image: url('img/profile-tiip.jpg')"></div>
+						<h1>Tiip<span class="buddydate">Thu</span></h1><h2>gntt mnjj️️</h2>
+					</a>
+					<a class="buddy" href="adam.html#8428109071">
+						<div class="avatar" style="background-image: url('img/profile-adam.jpg') "></div>
+						<h1>Adam<span class="buddydate">Wed</span></h1><h2>wtf?</h2>
+					</a>
+					<a class="buddy" href="zach.html#825702271">
+						<div class="avatar" style="background-image: url('img/profile-zach.jpg') "></div>
+						<h1>Zach<span class="buddydate">Dec 27</span></h1><h2>You: havent gone that far</h2>
+					</a>
+					<a class="buddy" href="dooj.html#0817927825">
+						<div class="avatar" style="background-image: url('img/profile-dooj.jpg') "></div>
+						<h1>DOoj<span class="buddydate">Nov 30</span></h1><h2>👌</h2>
+					</a>
+					<a class="buddy" href="johnorland.html#1734591033">
+						<div class="avatar" style="background-image: url('img/profile-johnorland.jpg') "></div>
+						<h1>John Orland<span class="buddydate">Sep 16</span></h1><h2>👍</h2>
+					</a>
+				</div>
+				<!-- end BUDDY LIST -->
+				<!-- start chat thread -->
+				<div class="chat-thread" id="chat-thread">
+
+					<p id="bio"></p>
+					<p class="bio-normal">I’m currently designing stuff at <a href="http://www.tachyus.com">Tachyus</a>, crashing at my friend’s place in <a href="https://www.google.com/maps/place/Nob+Hill,+San+Francisco">San Francisco</a>, and <a href="traveling.html">traveling quite a bit</a>. Previously, I was an innovation specialist at <a href="https://18f.gsa.gov">18F</a>, design lead at <a href="https://opengov.com">OpenGov</a>, and art/design teacher at <a href="https://www.facebook.com/pg/artelement/photos/?tab=album&album_id=121849237880080" class="">Art Element</a>.</p>
+					<p class="bio-normal">I post <a href="https://dribbble.com/shots/1489706-Mazzy-Star-Fade-Into-You">random</a> <a href="https://dribbble.com/shots/1556619-Angela-Lansbury">things</a> on <a href="https://dribbble.com/semiitalic" class="">Dribbble</a>, <a href="https://dribbble.com/shots/1700769-equality">mostly</a> <a href="https://dribbble.com/shots/1518937-result-of-a-sleepless-week">cats</a>. I'm starting to write about design on <a href="https://medium.com/@goodnightjj" class="bio-footer">Medium</a>. I <a href="https://www.instagram.com/goodnightjj" class="">Instagram</a> <a href="https://www.instagram.com/p/BPAbtkhA6eT">the shit</a> <a href="https://www.instagram.com/p/9nCkAnKv7B">out of</a> <a href="https://www.instagram.com/p/BLn1r-Igu8G">my</a> <a href="https://www.instagram.com/p/BKPqLrghuzR">life</a> <a href="https://www.instagram.com/p/BMY7gF7gtbB">on a</a> <a href="https://www.instagram.com/p/BNzVSaogLXj">daily</a> <a href="https://www.instagram.com/p/7VkHlRKv00">basis</a>. And I continue to mentor aspiring designers at <a href="http://trydesignlab.com/JjMoi">DesignLab</a>. I <a href="https://twitter.com/goodnightjj">tweet once a year</a>.</p>
+					<!-- And you most likely won’t <a href="#" id="email">email me</a>.</p> -->
+					<p id="bio-wild"></p>
+					<script>
+						function toggleChats() {
+							document.getElementById("tweet-drawer").style.display = "none";
+							document.getElementById("buddy-list").style.display = "block";
+							document.getElementById("chat-thread").style.display = "none";
+							document.getElementById("back-button").style.display = "none";
+							document.getElementById('right-title').className += ' mobile-hide';
+							document.getElementById('left-title').className += ' mobile-show';
+							document.getElementById("info-button").style.display = "none";
+						}
+					</script>
+				</div>
+		<!-- #content -->
+		<script src="./talkturkey/jquery.js"></script>
+	</div><!-- #page -->
+	<script type="text/javascript" src="./talkturkey/navigation.js"></script>
+	<script type="text/javascript" src="./talkturkey/skip-link-focus-fix.js"></script>
+	<script type="text/javascript" src="./talkturkey/comment-reply.min.js"></script>
+	<script type="text/javascript" src="./talkturkey/wp-embed.min.js"></script>
+	<script src="./talkturkey/bio.js"></script>
+</body>
+</html>
