@@ -9,7 +9,7 @@
 	var beautys = ['beauty and ', 'art and ', 'aesthetics and ', 'elegance to ', 'modernism and ', 'minimalism and ', 'fantasy and ', 'sci-fi and ', 'simplicity and ', 'form and '];
 	var funcs = ['function to ', 'purpose to ', 'intellectual purity to ', 'programming to ', 'science to ', 'language to', 'technology to ', 'design and ', 'mathematics to ', 'sustainability to ', 'magic to ', 'hyperreality to '];
 	var exps = [
-		'express ideas through art & design.', 'craft delightful human experiences.', 'create beloved and lasting experience.',
+		'craft delightful human experiences.', 'create beloved and lasting experience.',
 		'create not just a logo, but feelings and emotions.', 'solving design problems with honest solutions.',
 		'craft experiences that go beyond transcendence.', 'shape an inspiring narrative.',
 		'visualize human experiences both online and IRL.', 'build service for the humankind.'];
