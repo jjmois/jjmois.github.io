@@ -1,9 +1,9 @@
 // source: http://lab.sulko.co/designer-bio
 
 (function(){
-	var mundanes = ['Kinda feminist, ', 'Not vegan, ', 'Zombie aficionado, ', 'Dad of 2 dogs, ', 'Creator of stuff, ', 'Nature enthusiast, ', 'Civil servant, ', 'Ska band member, ', 'Fiber artist, '];
-	var vintages = ['drummer, ', 'ukulelist, ', 'hand letterer, ', 'graffiti writer, ', 'capoeirista, ', 'skateboarder, ', 'Liverpool fan, ', 'hot cheetos connoisseur, ', 'DJ, '];
-	var pros = ['furniture maker. ', 'unicorn. ', 'double-stack designer. ', 'teacher. ', 'experience artist. ', 'visual poet. ', 'enjoys poetry, sunshine, and carbs. '];
+	var mundanes = ['Kinda feminist, ', 'Not vegan, ', 'Furniture maker, ', 'Zombie aficionado, ', 'Type designer, ', 'Illustrator, ', 'Dad of 2 dogs, ', 'Creator of stuff, ', 'Flamin’ hot Cheetos connoisseur, ', 'Nature enthusiast, ', 'Civil servant, ', 'Ska band member, ', 'Fiber artist, '];
+	var vintages = ['drummer, ', 'ukulelist, ', 'hand letterer, ', 'graffiti writer, ', 'capoeirista, ', 'skateboarder, ', 'Liverpool fan, ', 'DJ, '];
+	var pros = ['unicorn. ', 'double-stack designer. ', 'teacher. ', 'experience artist. ', 'visual poet. ', 'enjoys poetry, sunshine, and carbs. '];
 	var ops = ['Working on stuff ', 'Designing stuff ', 'Developing stuff ', 'Producing stuff ', 'Building stuff ', 'Crafting stuff ', 'Making stuff '];
 	var inters = ['at the intersection of ', 'at the junction of ', 'at the crossroads of ', 'at the sweet spot between ', 'at the nexus of '];
 	var beautys = ['beauty and ', 'art and ', 'data and ', 'aesthetics and ', 'elegance and ', 'modernism and ', 'minimalism and ', 'fantasy and ', 'sci-fi and ', 'simplicity and ', 'form and '];
