@@ -16,6 +16,11 @@
 	var wilds = [
 		'My opinions belong to the void.'.link('javascript:window.location.reload(true)'),
 		'All are equal.'.link('javascript:window.location.reload(true)'),
+		'World Peace.'.link('javascript:window.location.reload(true)'),
+		'All are equal.'.link('javascript:window.location.reload(true)'),
+		I work at the intersection of form and language, design and technology.
+
+I enjoy doing things that demand patience and precision – spacing, kerning, typesetting.
 		'It’s okay to be happy, even in your imperfections and failures because that’s what makes you human. And being human is messy and beautiful.'.link('javascript:window.location.reload(true)'),
 		'I want you to know that happiness is okay, even when the world is aching. Because what the world desperately needs is positivity, and it starts with a smile.'.link('javascript:window.location.reload(true)'),
 		'Deadline is the source of my inspiration.'.link('javascript:window.location.reload(true)'),
