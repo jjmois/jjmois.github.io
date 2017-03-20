@@ -6,13 +6,13 @@
 	var pros = ['furniture maker. ', 'unicorn. ', 'double-stack designer. ', 'teacher. ', 'experience artist. ', 'visual poet. ', 'enjoys poetry, sunshine, and carbs. '];
 	var ops = ['Working on stuff ', 'Designing stuff ', 'Developing stuff ', 'Producing stuff ', 'Building stuff ', 'Crafting stuff ', 'Making stuff '];
 	var inters = ['at the intersection of ', 'at the junction of ', 'at the crossroads of ', 'at the sweet spot between ', 'at the nexus of '];
-	var beautys = ['beauty and ', 'art and ', 'aesthetics and ', 'elegance to ', 'modernism and ', 'minimalism and ', 'fantasy and ', 'sci-fi and ', 'simplicity and ', 'form and '];
-	var funcs = ['function to ', 'purpose to ', 'intellectual purity to ', 'programming to ', 'science to ', 'language to', 'technology to ', 'design and ', 'mathematics to ', 'sustainability to ', 'magic to ', 'hyperreality to '];
+	var beautys = ['beauty and ', 'art and ', 'data and ', 'aesthetics and ', 'elegance to ', 'modernism and ', 'minimalism and ', 'fantasy and ', 'sci-fi and ', 'simplicity and ', 'form and '];
+	var funcs = ['function to ', 'purpose to ', 'intellectual purity to ', 'programming to ', 'science to ', 'language to ', 'technology to ', 'design and ', 'mathematics to ', 'sustainability to ', 'magic to ', 'hyperreality to '];
 	var exps = [
 		'craft delightful human experiences.', 'create beloved and lasting experience.',
-		'create not just a logo, but feelings and emotions.', 'solving design problems with honest solutions.',
-		'craft experiences that go beyond transcendence.', 'shape an inspiring narrative.',
-		'visualize human experiences both online and IRL.', 'build service for the humankind.'];
+		'create not just a brand, but feelings and emotions.', 'solving design problems with honest solutions.',
+		'craft experiences that are beyond transcendence.', 'shape an inspiring narrative.',
+		'visualize human experiences both online and IRL.', 'make the world a better place better than anyone else.'];
 	var wilds = [
 		'My opinions belong to the void.'.link('javascript:window.location.reload(true)'),
 		'All are equal.'.link('javascript:window.location.reload(true)'),
@@ -35,15 +35,17 @@
 		'Aluminium.'.link('javascript:window.location.reload(true)'),
 		'I study master’s degrees as a hobby.'.link('javascript:window.location.reload(true)'),
 		'We can do better.'.link('javascript:window.location.reload(true)'),
-		'Profound.'.link('javascript:window.location.reload(true)'),
+		'Profoundly.'.link('javascript:window.location.reload(true)'),
 		'Pure passion.'.link('javascript:window.location.reload(true)'),
 		'I love sushi.'.link('javascript:window.location.reload(true)'),
+		'Party, Sleep, Repeat.'.link('javascript:window.location.reload(true)'),
 		'Love is worth everything. Everything.'.link('javascript:window.location.reload(true)'),
 		'The secret to creativity is knowing how to hide your sources.'.link('javascript:window.location.reload(true)'),
 		'I want you to know that it is okay to suck at something.'.link('javascript:window.location.reload(true)'),
 		'Time is irrelevant.'.link('javascript:window.location.reload(true)'),
 		'Making the world a better place better than any one else.'.link('javascript:window.location.reload(true)'),
 		'Turtle is my spirit animal.'.link('javascript:window.location.reload(true)'),
+		'Enter the Void.'.link('javascript:window.location.reload(true)'),
 		'Don’t try to be original. Just try to be nice.'.link('javascript:window.location.reload(true)'),
 		'Simplicity.'.link('javascript:window.location.reload(true)'),
 		'Humanity.'.link('javascript:window.location.reload(true)'),
@@ -62,6 +64,7 @@
 		'Dank.'.link('javascript:window.location.reload(true)'),
 		'Synergize.'.link('javascript:window.location.reload(true)'),
 		'Pizza.'.link('javascript:window.location.reload(true)'),
+		'Sushi.'.link('javascript:window.location.reload(true)'),
 		'Kale.'.link('javascript:window.location.reload(true)'),
 		'Next.'.link('javascript:window.location.reload(true)'),
 		'Kombucha.'.link('javascript:window.location.reload(true)'),
