@@ -163,9 +163,9 @@ tr:hover {
 }
 
 /*rwd*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
 	#element2, #element3 {
-		width: 46%;
+		width: 66%;
 	}
 	#element4, #element5 {
 		display: none;
