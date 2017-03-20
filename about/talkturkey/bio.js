@@ -6,8 +6,8 @@
 	var pros = ['furniture maker. ', 'unicorn. ', 'double-stack designer. ', 'teacher. ', 'experience artist. ', 'visual poet. ', 'enjoys poetry, sunshine, and carbs. '];
 	var ops = ['Working on stuff ', 'Designing stuff ', 'Developing stuff ', 'Producing stuff ', 'Building stuff ', 'Crafting stuff ', 'Making stuff '];
 	var inters = ['at the intersection of ', 'at the junction of ', 'at the crossroads of ', 'at the sweet spot between ', 'at the nexus of '];
-	var beautys = ['beauty and ', 'art and ', 'data and ', 'aesthetics and ', 'elegance to ', 'modernism and ', 'minimalism and ', 'fantasy and ', 'sci-fi and ', 'simplicity and ', 'form and '];
-	var funcs = ['function to ', 'purpose to ', 'intellectual purity to ', 'programming to ', 'science to ', 'language to ', 'technology to ', 'design and ', 'mathematics to ', 'sustainability to ', 'magic to ', 'hyperreality to '];
+	var beautys = ['beauty and ', 'art and ', 'data and ', 'aesthetics and ', 'elegance and ', 'modernism and ', 'minimalism and ', 'fantasy and ', 'sci-fi and ', 'simplicity and ', 'form and '];
+	var funcs = ['function to ', 'purpose to ', 'intellectual purity to ', 'programming to ', 'science to ', 'language to ', 'technology to ', 'design to ', 'mathematics to ', 'sustainability to ', 'magic to ', 'hyperreality to '];
 	var exps = [
 		'craft delightful human experiences.', 'create beloved and lasting experience.',
 		'create not just a brand, but feelings and emotions.', 'solving design problems with honest solutions.',
