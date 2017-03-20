@@ -1787,7 +1787,7 @@ div.onesignal-bell-launcher-dialog.onesignal-bell-launcher-dialog-opened {
 }
 
 .bubble {
-	max-width: 670px;
+	/*max-width: 670px;*/
 	padding: 9px 14px;
 }
 
