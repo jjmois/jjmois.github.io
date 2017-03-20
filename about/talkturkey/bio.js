@@ -6,8 +6,8 @@
 	var pros = ['furniture maker. ', 'unicorn. ', 'double-stack designer. ', 'teacher. ', 'experience artist. ', 'visual poet. ', 'enjoys poetry, sunshine, and carbs. '];
 	var ops = ['Working on stuff ', 'Designing stuff ', 'Developing stuff ', 'Producing stuff ', 'Building stuff ', 'Crafting stuff ', 'Making stuff '];
 	var inters = ['at the intersection of ', 'at the junction of ', 'at the crossroads of ', 'at the sweet spot between ', 'at the nexus of '];
-	var beautys = ['beauty and ', 'art and ', 'aesthetics and ', 'design and ', 'modernism and ', 'minimalism and ', 'fantasy and ', 'sci-fi and ', 'simplicity and '];
-	var funcs = ['function to ', 'elegance to ', 'purpose to ', 'intellectual purity to ', 'programming to ', 'science to ', 'mathematics to ', 'sustainability to ', 'magic to ', 'hyperreality to '];
+	var beautys = ['beauty and ', 'art and ', 'aesthetics and ', 'elegance to ', 'modernism and ', 'minimalism and ', 'fantasy and ', 'sci-fi and ', 'simplicity and ', 'form and '];
+	var funcs = ['function to ', 'purpose to ', 'intellectual purity to ', 'programming to ', 'science to ', 'language to', 'technology to ', 'design and ', 'mathematics to ', 'sustainability to ', 'magic to ', 'hyperreality to '];
 	var exps = [
 		'express ideas through art & design.', 'craft delightful human experiences.', 'create beloved and lasting experience.',
 		'create not just a logo, but feelings and emotions.', 'solving design problems with honest solutions.',
@@ -17,10 +17,8 @@
 		'My opinions belong to the void.'.link('javascript:window.location.reload(true)'),
 		'All are equal.'.link('javascript:window.location.reload(true)'),
 		'World Peace.'.link('javascript:window.location.reload(true)'),
-		'All are equal.'.link('javascript:window.location.reload(true)'),
-		I work at the intersection of form and language, design and technology.
-
-I enjoy doing things that demand patience and precision – spacing, kerning, typesetting.
+		'Spacing, Kerning, Typesetting.'.link('javascript:window.location.reload(true)'),
+		'I enjoy doing things that demand patience and precision.'.link('javascript:window.location.reload(true)'),
 		'It’s okay to be happy, even in your imperfections and failures because that’s what makes you human. And being human is messy and beautiful.'.link('javascript:window.location.reload(true)'),
 		'I want you to know that happiness is okay, even when the world is aching. Because what the world desperately needs is positivity, and it starts with a smile.'.link('javascript:window.location.reload(true)'),
 		'Deadline is the source of my inspiration.'.link('javascript:window.location.reload(true)'),
