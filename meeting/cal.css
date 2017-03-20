@@ -170,4 +170,7 @@ tr:hover {
 	#element4, #element5 {
 		display: none;
 	}
+	#element3 {
+		margin-left: 85%;
+	}
 }
