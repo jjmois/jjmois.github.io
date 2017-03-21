@@ -1,0 +1,40 @@
+body {
+  overflow: hidden;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+svg {
+  background: #35343A;
+}
+svg .land {
+  fill: #9F9E99;
+  stroke: white;
+  stroke-width: 0.1;
+}
+svg .strike {
+  fill: #E6AC00;
+  opacity: 0.7;
+  stroke: #806000;
+  stroke-width: 0.3;
+}
+svg .strike:hover {
+  fill: #FF3819;
+}
+
+.tooltip {
+  position: absolute;
+  border: 1px solid #3a3f4f;
+  border-radius: 7px;
+  padding: 7px 10px;
+  color: #0C090A;
+  font-size: 0.8em;
+  background: #F5F5F5;
+  pointer-events: none;
+}
+.tooltip strong {
+  font-weight: 600;
+}
+
+.hidden {
+  opacity: 0;
+}
