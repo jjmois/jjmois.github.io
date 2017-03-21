@@ -1,7 +1,7 @@
 'use strict';
 
-var w = window.innerWidth,
-		h = window.innerHeight;
+var w = window.innerWidth;
+var h = window.innerHeight;
 
 //var mapUrl = 'https://gist.githubusercontent.com/thepeted/60242378d8c825281ea695c572ab4d51/raw/00685152c5cb34093aabc22b2c06e3df052cc981/world110m.json';
 //var dataUrl = 'https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json';
