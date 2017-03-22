@@ -11,11 +11,11 @@ svg .land {
   stroke-width: 0.1;
 }
 svg .strike {
-  fill: #00e6ac;
+  fill: #29e5ac;
   opacity: 0.7;
 }
 svg .strike:hover {
-  fill: #fa4242;
+  opacity: 0.5;
 }
 .tooltip {
   position: absolute;
