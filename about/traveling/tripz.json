@@ -88,7 +88,12 @@
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [100.877081, 12.927608]},
-			"properties": {"mass": "999","name": "Pattaya, Thailand","year": "2015","recclass": "1990, 1994, 1995, 1996, 1998, 2004, 2013, 2015, 2016"
+			"properties": {"mass": "1","name": "Bangkok, Thailand","year": "1987","recclass": "Home"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [100.877081, 12.927608]},
+			"properties": {"mass": "9","name": "Pattaya, Thailand","year": "1990","recclass": "1990, 1994, 1995, 1996, 1998, 2004, 2013, 2015, 2016"
 			}
 		},
 		{
@@ -124,6 +129,11 @@
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.3522, 48.856614]},
 			"properties": {"mass": "1","name": "Paris, France","year": "1991","recclass": "1991"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-74.005941, 40.712784]},
+			"properties": {"mass": "1","name": "San Francisco, CA","year": "1984","recclass": "Second Home"
 			}
 		},
 		{
