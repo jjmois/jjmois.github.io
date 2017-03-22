@@ -7,7 +7,7 @@ var h = window.innerHeight;
 //var dataUrl = 'https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json';
 
 var mapUrl = 'map.json';
-var dataUrl = 'trips.json';
+var dataUrl = 'tripz.json';
 
 var svg = d3.select('body').append('svg').attr('width', w).attr('height', h);
 
