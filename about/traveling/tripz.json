@@ -12,6 +12,21 @@
 			}
 		},
 		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [114.109497, 22.396428]},
+			"properties": {"mass": "555","name": "Hong Kong","year": "2011"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.352222, 48.856614]},
+			"properties": {"mass": "555","name": "Paris","year": "1990"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-1.087298, 53.959965]},
+			"properties": {"mass": "555","name": "York","year": "2013"
+			}
+		},
+		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.691706, 35.689487]},
 			"properties": {"mass": "555","name": "Tokyo","year": "2016"
 			}
