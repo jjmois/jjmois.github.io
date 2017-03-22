@@ -1,0 +1,22 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		//start
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [6.08333, 50.775]},
+			"properties": {"mass": "2222","name": "Aachen","year": "1880"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-104.93056, 39.7825]},
+			"properties": {"mass": "9999","name": "Denver","year": "1911"
+			}
+		}//last no comma
+	],
+	"crs": {
+		"type": "name",
+		"properties": {
+			"name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+		}
+	}
+}
