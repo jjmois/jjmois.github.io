@@ -6,7 +6,7 @@ svg {
   background: #333333;
 }
 svg .land {
-  fill: #383838;
+  fill: #333333; /* #383838 */
   stroke: #ccc;
   stroke-width: 0.1;
 }
