@@ -3,87 +3,87 @@
 	"features": [
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-0.127758, 51.507351]},
-			"properties": {"mass": "555","name": "London","year": "2013","years": "2013"
+			"properties": {"mass": "555","name": "London","year": "2013","class": "2013"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [103.819836, 1.352083]},
-			"properties": {"mass": "555","name": "Singapore","year": "2014","years": "2014, 2015"
+			"properties": {"mass": "555","name": "Singapore","year": "2014","class": "2014, 2015"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [102.633104, 17.975706]},
-			"properties": {"mass": "555","name": "Vientiane","year": "2012","years": "2012, 2014"
+			"properties": {"mass": "555","name": "Vientiane","year": "2012","class": "2012, 2014"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [100.877081, 12.927608]},
-			"properties": {"mass": "555","name": "Pattaya","year": "2015","years": "1990, 1994, 1995, 1996, 1998, 2004, 2013, 2015, 2016"
+			"properties": {"mass": "555","name": "Pattaya","year": "2015","class": "1990, 1994, 1995, 1996, 1998, 2004, 2013, 2015, 2016"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [99.852194, 19.906415]},
-			"properties": {"mass": "555","name": "Chiang Rai","year": "1999","years": "1999, 2007"
+			"properties": {"mass": "555","name": "Chiang Rai","year": "1999","class": "1999, 2007"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [98.981716, 18.706064]},
-			"properties": {"mass": "555","name": "Chiang Mai","year": "2015","years": "2001, 2007, 2015, 2016"
+			"properties": {"mass": "555","name": "Chiang Mai","year": "2015","class": "2001, 2007, 2015, 2016"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-118.243685, 34.052234]},
-			"properties": {"mass": "555","name": "Los Angeles","year": "2015","years": "2012, 2013, 2015"
+			"properties": {"mass": "555","name": "Los Angeles","year": "2015","class": "2012, 2013, 2015"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [98.338088, 7.951933]},
-			"properties": {"mass": "3222","name": "Phuket","year": "2015","years": "1992, 1998, 2004, 2011, 2015"
+			"properties": {"mass": "3222","name": "Phuket","year": "2015","class": "1992, 1998, 2004, 2011, 2015"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [100.501765, 13.756331]},
-			"properties": {"mass": "555","name": "Bangkok","year": "1990","years": "1990"
+			"properties": {"mass": "555","name": "Bangkok","year": "1990","class": "1990"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [114.109497, 22.396428]},
-			"properties": {"mass": "555","name": "Hong Kong","year": "2011","years": "2011"
+			"properties": {"mass": "555","name": "Hong Kong","year": "2011","class": "2011"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.352222, 48.856614]},
-			"properties": {"mass": "555","name": "Paris","year": "1990"
+			"properties": {"mass": "555","name": "Paris","year": "1990","class": "1990"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-1.087298, 53.959965]},
-			"properties": {"mass": "555","name": "York","year": "2013"
+			"properties": {"mass": "555","name": "York","year": "2013","class": "2013"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-74.005941, 40.712784]},
-			"properties": {"mass": "555","name": "New York","year": "2015","years": "2015"
+			"properties": {"mass": "555","name": "New York","year": "2012","class": "2012, 2015"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-115.139830, 36.169941]},
-			"properties": {"mass": "555","name": "Las Vegas","year": "2015","years": "2015"
+			"properties": {"mass": "555","name": "Las Vegas","year": "2012","class": "2012, 2014"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.691706, 35.689487]},
-			"properties": {"mass": "555","name": "Tokyo","year": "2016","years": "2014, 2016"
+			"properties": {"mass": "555","name": "Tokyo","year": "2014","class": "2014, 2016"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [126.977969, 37.566535]},
-			"properties": {"mass": "555","name": "Seoul","year": "2016","years": "2016"
+			"properties": {"mass": "555","name": "Seoul","year": "2016","class": "2016"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-123.029022, 49.272677]},
-			"properties": {"mass": "99","name": "Vancouver","year": "1987","years": "1987"
+			"properties": {"mass": "99","name": "Vancouver","year": "1989","class": "1989"
 			}
 		}
 	],
