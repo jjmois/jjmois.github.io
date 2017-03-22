@@ -33,7 +33,7 @@ svg .strike:hover {
 .hidden {
   opacity: 0;
 }
-.tooltip li.years {
+.tooltip .years {
   padding-top: 3px;
   font-size: 0.6em;
   color: #666666;
