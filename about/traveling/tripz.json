@@ -3,17 +3,17 @@
 	"features": [
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [6.08333, 50.775]},
-			"properties": {"mass": "2222","name": "Aachen","year": "1880"
+			"properties": {"mass": "2222","name": "Aachen","year": "1880", "id": "1"
 			}
 		},
 		{
-			"type": "Feature", "geometry": {"type": "Point", "coordinates": [100.501765,13. 756331]},
-			"properties": {"mass": "2222","name": "Bangkok","year": "19840"
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [100.501765, 13.756331]},
+			"properties": {"mass": "555","name": "Bangkok","year": "19840", "id": "2"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-104.93056, 39.7825]},
-			"properties": {"mass": "9999","name": "Denver","year": "1911"
+			"properties": {"mass": "9999","name": "Denver","year": "1911", "id": "3"
 			}
 		}
 	],
