@@ -3,11 +3,11 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 svg {
-  background: #333333;
+  background: #333;
 }
 svg .land {
-  fill: #333333; /* #383838 */
-  stroke: #666666;
+  fill: #333; /* #383838 */
+  stroke: #333 /* #666666; */
   stroke-width: 0.1;
 }
 svg .strike {
