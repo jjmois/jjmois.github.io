@@ -6,8 +6,8 @@ var h = window.innerHeight;
 //var mapUrl = 'https://gist.githubusercontent.com/thepeted/60242378d8c825281ea695c572ab4d51/raw/00685152c5cb34093aabc22b2c06e3df052cc981/world110m.json';
 //var dataUrl = 'https://raw.githubusercontent.com/FreeCodeCamp/ProjectReferenceData/master/meteorite-strike-data.json';
 
-var mapUrl = 'http://jjmois.com/about/traveling/map.json';
-var dataUrl = 'http://jjmois.com/about/traveling/trips.json';
+var mapUrl = 'map.json';
+var dataUrl = 'trips.json';
 
 var svg = d3.select('body').append('svg').attr('width', w).attr('height', h);
 
