@@ -62,7 +62,7 @@ d3.json(mapUrl, function (topo) {
 		});
 		var animateStrikeDelay = d3.time.scale()
 		// manual tweak of min date to avoid data outliers
-		.domain([new Date(1850, 0), d3.max(strikeDates)]).range([0, 4000]).clamp(true);
+		.domain([new Date(1980, 0), d3.max(strikeDates)]).range([0, 2000]).clamp(true);
 
 		//dyncamically delay the creation of the strike animation
 		strikes.transition().delay(function (d) {
