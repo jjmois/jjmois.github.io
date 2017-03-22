@@ -7,6 +7,11 @@
 			}
 		},
 		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.756331, 100.501765]},
+			"properties": {"mass": "2222","name": "Bangkok","year": "19840"
+			}
+		},
+		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-104.93056, 39.7825]},
 			"properties": {"mass": "9999","name": "Denver","year": "1911"
 			}
