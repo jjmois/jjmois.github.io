@@ -12,6 +12,16 @@
 			}
 		},
 		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [139.691706, 35.689487]},
+			"properties": {"mass": "555","name": "Tokyo","year": "2016"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [126.977969, 37.566535]},
+			"properties": {"mass": "555","name": "Seoul","year": "2016"
+			}
+		},
+		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-104.93056, 39.7825]},
 			"properties": {"mass": "9999","name": "Denver","year": "2010"
 			}
