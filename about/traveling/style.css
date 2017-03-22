@@ -6,8 +6,8 @@ svg {
   background: #333;
 }
 svg .land {
-  fill: #333; /* #383838 */
-  stroke: #333 /* #666666; */
+  fill: #383838;
+  stroke: #666;
   stroke-width: 0.1;
 }
 svg .strike {
@@ -22,7 +22,7 @@ svg .strike:hover {
   border: 1px #eee solid;
   border-radius: 3px;
   padding: 8px 10px;
-  color: #333333;
+  color: #333;
   font-size: 14px;
   background: #eee;
   pointer-events: none;
