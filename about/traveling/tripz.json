@@ -8,12 +8,12 @@
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [100.501765, 13.756331]},
-			"properties": {"mass": "555","name": "Bangkok","year": "1984, 2017"
+			"properties": {"mass": "555","name": "Bangkok","year": "1990"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-104.93056, 39.7825]},
-			"properties": {"mass": "9999","name": "Denver","year": "1986"
+			"properties": {"mass": "9999","name": "Denver","year": "2010"
 			}
 		}
 	],
