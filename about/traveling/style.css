@@ -3,10 +3,10 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 svg {
-  background: #333;
+  background: #333333;
 }
 svg .land {
-  fill: #444;
+  fill: #383838;
   stroke: #ccc;
   stroke-width: 0.1;
 }
@@ -35,6 +35,6 @@ svg .strike:hover {
 }
 .tooltip .years {
   padding-top: 5px;
-  font-size: 12px;
+  font-size: 11px;
   color: #666;
 }
