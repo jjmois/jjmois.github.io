@@ -12,16 +12,16 @@ svg .land {
 }
 svg .strike {
   fill: #29e5ac;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 svg .strike:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 .tooltip {
   position: absolute;
   border: 1px #eee solid;
   border-radius: 3px;
-  padding: 10px 12px;
+  padding: 8px 10px;
   color: #333333;
   font-size: 14px;
   background: #eee;
