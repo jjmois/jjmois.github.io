@@ -2,13 +2,13 @@
 	"type": "FeatureCollection",
 	"features": [
 		{
-			"type": "Feature", "geometry": {"type": "Point", "coordinates": [, ]},
-			"properties": {"mass": "555","name": "xxx","year": "2015"
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-0.127758, 51.507351]},
+			"properties": {"mass": "555","name": "London","year": "2013"
 			}
 		},
 		{
-			"type": "Feature", "geometry": {"type": "Point", "coordinates": [, ]},
-			"properties": {"mass": "555","name": "xxx","year": "2015"
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [103.819836, 1.352083]},
+			"properties": {"mass": "555","name": "Singapore","year": "2014"
 			}
 		},
 		{
