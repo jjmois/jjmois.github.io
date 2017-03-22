@@ -8,7 +8,7 @@
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [100.501765, 13.756331]},
-			"properties": {"mass": "555","name": "Bangkok","year": "19840", "id": "2"
+			"properties": {"mass": "555","name": "Bangkok","year": "1984, 2017", "id": "2"
 			}
 		},
 		{
