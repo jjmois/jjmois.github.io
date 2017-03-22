@@ -3,12 +3,12 @@
 	"features": [
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-0.127758, 51.507351]},
-			"properties": {"mass": "222","name": "London, UK","year": "1998","recclass": "1998, 2013"
+			"properties": {"mass": "222","name": "London, England","year": "1998","recclass": "1998, 2013"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-1.087298, 53.959965]},
-			"properties": {"mass": "111","name": "York, UK","year": "2013","recclass": "2013"
+			"properties": {"mass": "111","name": "York, England","year": "2013","recclass": "2013"
 			}
 		},
 		{
@@ -67,8 +67,18 @@
 			}
 		},
 		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [100.797150, 22.008811]},
+			"properties": {"mass": "111","name": "Xishuangbanna, Yunnan, China","year": "2012","recclass": "2012"
+			}
+		},
+		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [105.834160, 21.027764]},
 			"properties": {"mass": "111","name": "Hanoi, Vietnam","year": "2012","recclass": "2012"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [107.562350, 16.449800]},
+			"properties": {"mass": "111","name": "Huế, Vietnam","year": "2012","recclass": "2012"
 			}
 		},
 		{
