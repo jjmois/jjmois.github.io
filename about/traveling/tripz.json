@@ -2,6 +2,41 @@
 	"type": "FeatureCollection",
 	"features": [
 		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [, ]},
+			"properties": {"mass": "555","name": "xxx","year": "2015"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [, ]},
+			"properties": {"mass": "555","name": "xxx","year": "2015"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [102.633104, 17.975706]},
+			"properties": {"mass": "555","name": "Vientiane","year": "2012"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [100.877081, 12.927608]},
+			"properties": {"mass": "555","name": "Pattaya","year": "2015"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [99.852194, 19.906415]},
+			"properties": {"mass": "555","name": "Chiang Rai","year": "1999"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [98.981716, 18.706064]},
+			"properties": {"mass": "555","name": "Chiang Mai","year": "2015"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-118.243685, 34.052234]},
+			"properties": {"mass": "555","name": "Los Angeles","year": "2015"
+			}
+		},
+		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [98.338088, 7.951933]},
 			"properties": {"mass": "3222","name": "Phuket","year": "2015"
 			}
@@ -24,6 +59,16 @@
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-1.087298, 53.959965]},
 			"properties": {"mass": "555","name": "York","year": "2013"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-74.005941, 40.712784]},
+			"properties": {"mass": "555","name": "New York","year": "2015"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-115.139830, 36.169941]},
+			"properties": {"mass": "555","name": "Las Vegas","year": "2015"
 			}
 		},
 		{
