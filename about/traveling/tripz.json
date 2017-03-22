@@ -2,8 +2,8 @@
 	"type": "FeatureCollection",
 	"features": [
 		{
-			"type": "Feature", "geometry": {"type": "Point", "coordinates": [6.08333, 50.775]},
-			"properties": {"mass": "2222","name": "Aachen","year": "1984"
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [98.338088, 7.951933]},
+			"properties": {"mass": "3222","name": "Phuket","year": "2015"
 			}
 		},
 		{
@@ -22,8 +22,8 @@
 			}
 		},
 		{
-			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-104.93056, 39.7825]},
-			"properties": {"mass": "9999","name": "Denver","year": "2010"
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-123.029022, 49.272677]},
+			"properties": {"mass": "99","name": "Vancouver","year": "1987"
 			}
 		}
 	],
