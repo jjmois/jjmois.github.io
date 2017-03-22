@@ -7,7 +7,7 @@ svg {
 }
 svg .land {
   fill: #333333; /* #383838 */
-  stroke: #ccc;
+  stroke: #666666;
   stroke-width: 0.1;
 }
 svg .strike {
