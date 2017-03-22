@@ -17,6 +17,36 @@
 			}
 		},
 		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [105.834160, 21.027764]},
+			"properties": {"mass": "555","name": "Hanoi","year": "2012","recclass": "2012"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [135.805000, 34.685087]},
+			"properties": {"mass": "111","name": "Nara","year": "2012","recclass": "2012"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [135.768029, 35.011636]},
+			"properties": {"mass": "111","name": "Kyoto","year": "2012","recclass": "2012"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [121.565418, 25.032969]},
+			"properties": {"mass": "222","name": "Taipei","year": "2012","recclass": "2014, 2017"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [135.502165, 34.693738]},
+			"properties": {"mass": "111","name": "Osaka","year": "2012","recclass": "2012"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [106.629664, 10.823099]},
+			"properties": {"mass": "255","name": "Ho Chi Minh City","year": "2012","recclass": "2012"
+			}
+		},
+		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [100.877081, 12.927608]},
 			"properties": {"mass": "555","name": "Pattaya","year": "2015","recclass": "1990, 1994, 1995, 1996, 1998, 2004, 2013, 2015, 2016"
 			}
