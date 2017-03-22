@@ -87,6 +87,7 @@ d3.json(mapUrl, function (topo) {
 			d3.select('#mass').text(d.properties.mass);
 			d3.select('#lat').text(d.properties.reclat);
 			d3.select('#lon').text(d.properties.reclong);
+			d3.select('#years').text(d.properties.years);
 			d3.select('#year').text(d.properties.year.split('-', 1));
 
 			//show tooltip
