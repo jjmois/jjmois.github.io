@@ -1274,8 +1274,8 @@ textarea:focus, input:focus{
 
 .Author1 {
 	float: right;
-	background-color: #11a2e3; /* #5082ff*/
-	color: #404040;
+	background-color: #11e2a3; /* #5082ff */
+	color: white; /* #404040 */
 }
 
 .Author2 {
@@ -1792,7 +1792,7 @@ div.onesignal-bell-launcher-dialog.onesignal-bell-launcher-dialog-opened {
 }
 
 .youtube {
-	background-color: #11a2e3;
+	background-color: #11e2a3;
 	margin: 0;
 	padding: 0;
 	margin-right: 10px;
