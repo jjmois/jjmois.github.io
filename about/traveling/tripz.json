@@ -153,7 +153,12 @@
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [37.617300, 55.755826]},
-			"properties": {"mass": "1","name": "Moscow, Russia","year": "2017","recclass": "2013"
+			"properties": {"mass": "1","name": "Moscow, Russia","year": "2013","recclass": "2013"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [30.335099, 59.934280]},
+			"properties": {"mass": "1","name": "Saint Petersburg, Russia","year": "2013","recclass": "2013"
 			}
 		},
 		{
@@ -392,18 +397,13 @@
 			}
 		},
 		{
-			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-149.493673, 64.200841]},
-			"properties": {"mass": "1","name": "Alaska","year": "2014","recclass": "2014"
-			}
-		},
-		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.416127, 37.801433]},
 			"properties": {"mass": "1","name": "San Francisco, CA","year": "1984","recclass": "Second Home"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.3437, 38.279932]},
-			"properties": {"mass": "4","name": "Napa, CA","year": "2012","recclass": "2012, 2014, 2015, 2016"
+			"properties": {"mass": "5","name": "Napa, CA","year": "2012","recclass": "2012, 2014, 2015, 2016, 2017"
 			}
 		},
 		{
@@ -423,17 +423,17 @@
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-119.538329, 37.865101]},
-			"properties": {"mass": "2","name": "Yosemite, CA","year": "2012","recclass": "2012, 2016"
+			"properties": {"mass": "3","name": "Yosemite, CA","year": "2011","recclass": "2011, 2014, 2017"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-118.243685, 34.052234]},
-			"properties": {"mass": "4","name": "Los Angeles, CA","year": "2015","recclass": "2012, 2013, 2015, 2017"
+			"properties": {"mass": "4","name": "Los Angeles, CA","year": "2012","recclass": "2012, 2013, 2015, 2017"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-119.213977, 40.780393]},
-			"properties": {"mass": "2","name": "Black Rock City, CA","year": "2014","recclass": "2014, 2015"
+			"properties": {"mass": "3","name": "Black Rock City, CA","year": "2014","recclass": "2014, 2015, 2017"
 			}
 		},
 		{
