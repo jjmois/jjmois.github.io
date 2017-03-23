@@ -1,8 +1,4 @@
 a {
-	cursor: url('mick-point3.png'), default;
-}
-
-#top a {
 	cursor: url('mick-move2.png'), move;
 }
 
