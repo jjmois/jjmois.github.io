@@ -373,7 +373,7 @@
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.332071, 47.606209]},
-			"properties": {"mass": "1","name": "Seattle, WA","year": "2010","recclass": "2010"
+			"properties": {"mass": "2","name": "Seattle, WA","year": "2010","recclass": "2010, 2017"
 			}
 		},
 		{
