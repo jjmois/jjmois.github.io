@@ -93,7 +93,7 @@
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [100.877081, 12.927608]},
-			"properties": {"mass": "9","name": "Pattaya, Thailand","year": "1990","recclass": "1990, 1994, 1995, 1996, 1998, 2004, 2013, 2015, 2016"
+			"properties": {"mass": "5","name": "Pattaya, Thailand","year": "1990","recclass": "1994, 1998, 2004, 2013, 2016"
 			}
 		},
 		{
@@ -183,7 +183,7 @@
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-121.894676, 36.600238]},
-			"properties": {"mass": "6","name": "Monterey, CA","year": "2012","recclass": "2012, 2013, 2014, 2015, 2016, 2017"
+			"properties": {"mass": "5","name": "Monterey, CA","year": "2012","recclass": "2012, 2013, 2014, 2015, 2017"
 			}
 		},
 		{
