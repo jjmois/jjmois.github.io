@@ -1062,7 +1062,7 @@ body {
 
 
 .buddy:hover {
-	background-color: rgba(225,225,225,0.3);
+	color: #11e2a3; /* background-color: rgba(225,225,225,0.3); */
 }
 
 .buddy:visited {
@@ -1133,7 +1133,7 @@ body {
 }
 
 .selected {
-	background-color: rgba(225,225,225,0.4)
+	color: #11e2a3; /* background-color: rgba(225,225,225,0.4) */
 }
 
 .selected h1, .selected h2 {
