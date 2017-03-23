@@ -362,18 +362,8 @@
 			}
 		},
 		{
-			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.416127, 37.801433]},
-			"properties": {"mass": "1","name": "San Francisco, CA","year": "1984","recclass": "Second Home"
-			}
-		},
-		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-74.005941, 40.712784]},
 			"properties": {"mass": "2","name": "New York City, NY","year": "2012","recclass": "2012, 2015"
-			}
-		},
-		{
-			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-118.243685, 34.052234]},
-			"properties": {"mass": "4","name": "Los Angeles, CA","year": "2015","recclass": "2012, 2013, 2015, 2017"
 			}
 		},
 		{
@@ -397,6 +387,21 @@
 			}
 		},
 		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.676482, 45.523062]},
+			"properties": {"mass": "1","name": "Portland, OR","year": "2015","recclass": "2015"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-149.493673, 64.200841]},
+			"properties": {"mass": "1","name": "Alaska","year": "2014","recclass": "2014"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.416127, 37.801433]},
+			"properties": {"mass": "1","name": "San Francisco, CA","year": "1984","recclass": "Second Home"
+			}
+		},
+		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.3437, 38.279932]},
 			"properties": {"mass": "4","name": "Napa, CA","year": "2012","recclass": "2012, 2014, 2015, 2016"
 			}
@@ -404,11 +409,6 @@
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.030796, 36.974117]},
 			"properties": {"mass": "5","name": "Santa Cruz, CA","year": "2010","recclass": "2010, 2014, 2015, 2016, 2017"
-			}
-		},
-		{
-			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.676482, 45.523062]},
-			"properties": {"mass": "1","name": "Portland, OR","year": "2015","recclass": "2015"
 			}
 		},
 		{
@@ -424,6 +424,11 @@
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-119.538329, 37.865101]},
 			"properties": {"mass": "2","name": "Yosemite, CA","year": "2012","recclass": "2012, 2016"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-118.243685, 34.052234]},
+			"properties": {"mass": "4","name": "Los Angeles, CA","year": "2015","recclass": "2012, 2013, 2015, 2017"
 			}
 		},
 		{
