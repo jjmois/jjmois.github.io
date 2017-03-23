@@ -1045,13 +1045,10 @@ body {
     text-decoration: none;
 }
 
-.buddy {
-
-}
-
 
 .buddy:hover {
 	background-color: rgba(225,225,225,0.3);
+	color: #29e5ac;
 }
 
 .buddy:visited {
