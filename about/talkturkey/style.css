@@ -1052,7 +1052,7 @@ body {
 
 .buddy-list .buddy:hover {
 	color: #29e5ac;
-	background-color: white;
+	background-color: rgba(225,225,225,0.2);
 }
 
 .buddy:visited {
