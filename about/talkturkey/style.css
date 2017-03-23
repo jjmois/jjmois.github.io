@@ -1889,7 +1889,7 @@ hr {
 	color: #29e5ac;
 }
 
-#bio-wild:hover, #bio, .bio-normal {
+#bio-wild:hover, #bio:hover, .bio-normal:hover {
 	color: #29e5ac;
 	opacity: 0.8;
 }
