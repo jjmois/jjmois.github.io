@@ -1738,6 +1738,18 @@ div.onesignal-bell-launcher-dialog.onesignal-bell-launcher-dialog-opened {
 
 /* jj start */
 
+a {
+	cursor: url('mick-point3.png'), default;
+}
+
+::selection {
+	background: #1bffd2; /* #29e5ac */
+}
+
+::-moz-selection {
+	background: #1bffd2; /* #29e5ac */
+}
+
 .chat-drawer, #info-button-active {
 	display: none;
 }
