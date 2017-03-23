@@ -1048,6 +1048,9 @@ body {
 
 .buddy:hover {
 	background-color: rgba(225,225,225,0.3);
+}
+
+.buddy-list .buddy:hover {
 	color: #29e5ac;
 }
 
