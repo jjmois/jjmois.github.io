@@ -1,4 +1,4 @@
 (function(){
   // init
-	document.getElementById("dashboard-items").innerHTML = '<div>' + "<a>abc</a>" + '</div>';
+	document.getElementById("dashboard-items").innerHTML = '<div>' + "<a href='https://www.google.com'>abc</a>" + '</div>';
 })();
