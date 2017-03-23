@@ -463,7 +463,12 @@
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-123.029022, 49.272677]},
-			"properties": {"mass": "1","name": "Vancouver, Canada","year": "1989","recclass": "1989"
+			"properties": {"mass": "2","name": "Vancouver, Canada","year": "1989","recclass": "1989, 1996"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-73.567256, 45.501689]},
+			"properties": {"mass": "1","name": "Montreal, Canada","year": "2013","recclass": "2013"
 			}
 		},
 		{
