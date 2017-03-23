@@ -1,3 +1,19 @@
+a {
+	cursor: url('mick-point3.png'), default;
+}
+
+#top a {
+	cursor: url('mick-move2.png'), move;
+}
+
+::selection {
+	background: #1bffd2;
+}
+
+::-moz-selection {
+	background: #1bffd2;
+}
+
 h1 {
 	margin: 0;
 	padding: 0;
