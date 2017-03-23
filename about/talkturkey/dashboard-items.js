@@ -1,6 +1,6 @@
 (function(){
   // init
-	document.getElementById("dashboard-items").innerHTML = '<div>' +
+	document.getElementById("dashboard-items").innerHTML = '<div class="buddy-list" id="buddy-list">' +
 '<a class="buddy buddy-no" href="blurbing.html">' + '<div class="avatar-no">' + '</div>' +
 '<h1>' + "Blurbing" + '</h1>' + '<h2>' + "Bio" + '</h2>' +
 '</a>' +
