@@ -1052,6 +1052,7 @@ body {
 
 .buddy-list .buddy:hover {
 	color: #29e5ac;
+	background-color: white;
 }
 
 .buddy:visited {
@@ -1122,7 +1123,7 @@ body {
 }
 
 .selected {
-	background-color: rgba(225,225,225,0.4)
+	background-color: rgba(225,225,225,0.3)
 }
 
 .selected h1, .selected h2 {
