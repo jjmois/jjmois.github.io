@@ -2,6 +2,181 @@
 	"type": "FeatureCollection",
 	"features": [
 		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.173403, 41.385064]},
+			"properties": {"mass": "1","name": "Barcelona, Spain","year": "2000","recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-3.581543, 40.303618]},
+			"properties": {"mass": "1","name": "Madrid, Spain","year": "2000","recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-0.373535, 39.528407]},
+			"properties": {"mass": "1","name": "Valencia, Spain","year": "2000","recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-5.954590, 37.430160]},
+			"properties": {"mass": "1","name": "Seville, Spain","year": "2000","recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-9.107666, 38.663531]},
+			"properties": {"mass": "1","name": "Lisbon, Portugal","year": "2000","recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-8.580322, 41.190540]},
+			"properties": {"mass": "1","name": "Porto, Portugal","year": "2000","recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.3522, 48.856614]},
+			"properties": {"mass": "2","name": "Paris, France","year": "1991","recclass": "1991, 2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [1.505127, 43.559994]},
+			"properties": {"mass": "1","name": "Toulouse, France","year": "2000","recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-0.560303, 44.835909]},
+			"properties": {"mass": "1","name": "Bordeaux, France","year": "2000","recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [5.416260, 43.240701]},
+			"properties": {"mass": "1","name": "Marseille, France","year": "2000","recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [12.453389, 41.902916]},
+			"properties": {"mass": "1","name": "Vatican City","year": "2000",”recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [9.195557, 45.440381]},
+			"properties": {"mass": "1","name": "Milan, Italy","year": "2000",”recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [12.359619, 45.378679]},
+			"properties": {"mass": "1","name": "Venice, Italy","year": "2000",”recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [11.217041, 43.496270]},
+			"properties": {"mass": "1","name": "Florence, Italy","year": "2000",”recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [12.513428, 41.897677]},
+			"properties": {"mass": "1","name": "Rome, Italy","year": "2000",”recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [3.224700, 51.209348]},
+			"properties": {"mass": "1","name": "Bruges, Belgium","year": "2000",”recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [4.345093, 50.859494]},
+			"properties": {"mass": "1","name": "Brussels, Belgium","year": "2000",”recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [4.891663, 52.364594]},
+			"properties": {"mass": "1","name": "Amsterdam, Netherlands","year": "2000",”recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [11.596069, 48.127372]},
+			"properties": {"mass": "1","name": "Munich, Germany","year": "2000",”recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.414307, 52.505773]},
+			"properties": {"mass": "1","name": "Berlin, Germany","year": "2000",”recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [16.377869, 48.205342]},
+			"properties": {"mass": "1","name": "Vienna, Austria","year": "2000",”recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [12.565613, 55.670518]},
+			"properties": {"mass": "1","name": "Copenhagen, Denmark","year": "2017",”recclass": "2017"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.005066, 55.602305]},
+			"properties": {"mass": "1","name": "Malmö, Sweden","year": "2017",”recclass": "2017"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [18.068581, 59.329323]},
+			"properties": {"mass": "1","name": "Stockholm, Sweden","year": "2017",”recclass": "2017"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [10.752245, 59.913869]},
+			"properties": {"mass": "1","name": "Oslo, Norway","year": "2017",”recclass": "2017"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [5.322054, 60.391263]},
+			"properties": {"mass": "1","name": "Bergen, Norway","year": "2017",”recclass": "2017"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [22.025087, 60.466088]},
+			"properties": {"mass": "1","name": "Naantali, Finland","year": "2017",”recclass": "2017"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [24.927979, 60.149366]},
+			"properties": {"mass": "1","name": "Helsinki","year": "2017",”recclass": "2017"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [37.617300, 55.755826]},
+			"properties": {"mass": "1","name": "Moscow, Russia","year": "2017",”recclass": "2013"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [31.235712, 30.044420]},
+			"properties": {"mass": "1","name": "Cairo, Egypt","year": "2015",”recclass": "2015"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-77.396280, 25.034280]},
+			"properties": {"mass": "1","name": "The Bahamas","year": "2016",”recclass": "2016"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-82.366596, 23.113592]},
+			"properties": {"mass": "1","name": "Havana, Cuba","year": "2016",”recclass": "2016"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-157.857056, 21.306967]},
+			"properties": {"mass": "1","name": "Honolulu, Hawaii","year": "1992",”recclass": "1992, 2001"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-156.268158, 20.786208]},
+			"properties": {"mass": "1","name": "Maui, Hawaii","year": "2013",”recclass": "2013"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [14.437800, 50.075538]},
+			"properties": {"mass": "1","name": "Prague, Czechia","year": "1999","recclass": "1999"
+			}
+		},
+		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-0.127758, 51.507351]},
 			"properties": {"mass": "2","name": "London, England","year": "1998","recclass": "1998, 2013"
 			}
@@ -72,6 +247,56 @@
 			}
 		},
 		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [91.172110, 29.652491]},
+			"properties": {"mass": "1","name": "Lhasa, Tibet","year": "2009","recclass": "2009"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [77.211914, 28.514556]},
+			"properties": {"mass": "1","name": "New Delhi, India","year": "2008",”recclass": "2008"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [72.993164, 19.038752]},
+			"properties": {"mass": "1","name": "Mumbai, India","year": "2008",”recclass": "2008"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [85.325317, 27.719701]},
+			"properties": {"mass": "1","name": "Kathmandu, Nepal","year": "2008",”recclass": "2008"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [83.995588, 28.237987]},
+			"properties": {"mass": "1","name": "Pokhara, Nepal","year": "2008",”recclass": "2008"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [89.640198, 27.467917]},
+			"properties": {"mass": "1","name": "Thimphu, Bhutan","year": "2008",”recclass": "2008"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [89.414978, 27.433794]},
+			"properties": {"mass": "1","name": "Paro, Bhutan","year": "2008",”recclass": "2008"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [121.492310, 31.219555]},
+			"properties": {"mass": "1","name": "Shanghai, China","year": "1991",”recclass": "1991"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [116.405640, 39.898938]},
+			"properties": {"mass": "1","name": "Beijing, China","year": "1997",”recclass": "1997"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [115.193024, -8.418800]},
+			"properties": {"mass": "1","name": "Bali, Indonesia","year": "1997",”recclass": "1997"
+			}
+		},
+		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [105.834160, 21.027764]},
 			"properties": {"mass": "1","name": "Hanoi, Vietnam","year": "2012","recclass": "2012"
 			}
@@ -127,11 +352,6 @@
 			}
 		},
 		{
-			"type": "Feature", "geometry": {"type": "Point", "coordinates": [2.3522, 48.856614]},
-			"properties": {"mass": "1","name": "Paris, France","year": "1991","recclass": "1991"
-			}
-		},
-		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.416127, 37.801433]},
 			"properties": {"mass": "1","name": "San Francisco, CA","year": "1984","recclass": "Second Home"
 			}
@@ -143,7 +363,7 @@
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-118.243685, 34.052234]},
-			"properties": {"mass": "3","name": "Los Angeles, CA","year": "2015","recclass": "2012, 2013, 2015"
+			"properties": {"mass": "4","name": "Los Angeles, CA","year": "2015","recclass": "2012, 2013, 2015, 2017"
 			}
 		},
 		{
