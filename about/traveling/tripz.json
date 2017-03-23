@@ -102,6 +102,16 @@
 			}
 		},
 		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [8.247253, 49.992862]},
+			"properties": {"mass": "1","name": "Mainz, Germany","year": "2000","recclass": "2000"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [6.960279, 50.937531]},
+			"properties": {"mass": "1","name": "Cologne, Germany","year": "2000","recclass": "2000"
+			}
+		},
+		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [16.377869, 48.205342]},
 			"properties": {"mass": "1","name": "Vienna, Austria","year": "2000","recclass": "2000"
 			}
@@ -364,6 +374,11 @@
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-118.243685, 34.052234]},
 			"properties": {"mass": "4","name": "Los Angeles, CA","year": "2015","recclass": "2012, 2013, 2015, 2017"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.332071, 47.606209]},
+			"properties": {"mass": "1","name": "Seattle, WA","year": "2010","recclass": "2010"
 			}
 		},
 		{
