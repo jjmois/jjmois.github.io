@@ -1,4 +1,4 @@
-(function(){
+function(){
 // init
 document.getElementById("dashboard-items").innerHTML = '<a class="buddy buddy-no" href="blurbing.html">' +
 '<div class="avatar-no" style="background-image: url('img/profile-item.jpg') ">' + '</div>' +
@@ -9,4 +9,4 @@ document.getElementById("dashboard-items").innerHTML = '<a class="buddy buddy-no
 '<h1>' + "Sprinting" + '</h1>' + '<h2>' + "Show critical metadata for each plan" + '</h2>' +
 '</a>' +
 '<hr />';
-})();
+}
