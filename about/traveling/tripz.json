@@ -163,7 +163,7 @@
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-157.857056, 21.306967]},
-			"properties": {"mass": "1","name": "Honolulu, Hawaii","year": "1992",”recclass": "1992, 2001"
+			"properties": {"mass": "2","name": "Honolulu, Hawaii","year": "1992",”recclass": "1992, 2001"
 			}
 		},
 		{
