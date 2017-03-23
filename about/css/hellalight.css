@@ -1,3 +1,7 @@
+a:hover {
+	cursor: url('mick-point3.png'), default;
+}
+
 ::selection {
 	background: #1bffd2;
 }
