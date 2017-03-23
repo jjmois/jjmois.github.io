@@ -233,7 +233,7 @@ var tchart = d3.select('#tchart').attr('width', tbarWidth * tdata.length).attr('
 var tbar = tchart.selectAll('g').data(tdata).enter().append('g').attr('transform', function (d, i) {
   return 'translate(' + (i * tbarWidth + tbarWidth) + ', ' + theight + ') rotate(180)';
 }).attr('fill', function (d, i) {
-	return 'rgba(10,200,120,0.8)';
+	return '#7fefce'; // rgba(10,200,120,0.8)
 });
 
 tbar.append('rect').attr('width', tbarWidth - 2).attr('height', tscale);
@@ -353,7 +353,7 @@ var cchart = d3.select('#cchart').attr('width', cbarWidth * cdata.length).attr('
 var cbar = cchart.selectAll('g').data(cdata).enter().append('g').attr('transform', function (d, i) {
   return 'translate(' + (i * cbarWidth + cbarWidth) + ', ' + cheight + ') rotate(180)';
 }).attr('fill', function (d, i) {
-	return 'rgba(240,105,110,1)';
+	return '#fa4242'; // rgba(240,105,110,1)
 });
 
 cbar.append('rect').attr('width', cbarWidth - 2).attr('height', cscale);
