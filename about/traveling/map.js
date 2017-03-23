@@ -39,9 +39,9 @@ d3.json(mapUrl, function (topo) {
 			return e.geometry;
 		});
 		//scale for sizing the radius of strike circles
-		var massScale = d3.scale.pow().exponent(0.3).domain([1, d3.max(dataset.map(function (e) {
+		var massScale = d3.scale.pow().exponent(0.4).domain([1, d3.max(dataset.map(function (e) {
 			return +e.properties.mass;
-		}))]).rangeRound([2, 10]);
+		}))]).rangeRound([2, 12]);
 
 		var strikes = worldMap.selectAll('circle').data(dataset).enter().append('circle').attr('class', 'strike').attr('cx', function (d) {
 			return projection(d.geometry.coordinates)[0];
