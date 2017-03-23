@@ -1885,11 +1885,11 @@ hr {
 	padding: 0;
 }
 
-#bio-wild {
+#bio-wild a {
 	color: #29e5ac;
 }
 
-#bio-wild:hover, #bio:hover, .bio-normal:hover {
+#bio-wild a:hover, #bio a:hover, .bio-normal a:hover {
 	color: #29e5ac;
 	opacity: 0.8;
 }
