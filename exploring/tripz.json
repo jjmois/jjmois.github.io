@@ -193,12 +193,17 @@
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-0.127758, 51.507351]},
-			"properties": {"mass": "2","name": "London, England","year": "1998","recclass": "1998, 2013"
+			"properties": {"mass": "3","name": "London, England","year": "1994","recclass": "1994, 2009, 2013"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-1.087298, 53.959965]},
 			"properties": {"mass": "1","name": "York, England","year": "2013","recclass": "2013"
+			}
+		},
+		{
+			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-2.960830, 53.430829]},
+			"properties": {"mass": "3","name": "Liverpool, England","year": "2013","recclass": "2013"
 			}
 		},
 		{
