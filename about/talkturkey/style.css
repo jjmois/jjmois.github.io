@@ -1126,6 +1126,10 @@ body {
 	background-color: rgba(225,225,225,0.3)
 }
 
+.selected h1 {
+	color: #7fefce;
+}
+
 .selected h1, .selected h2 {
 	font-weight: 500;
 }
@@ -1264,8 +1268,8 @@ textarea:focus, input:focus{
 
 .Author1 {
 	float: right;
-	background-color: #11e2a3; /* #5082ff */
-	color: white /* #404040 */
+	background-color: #cdf8ea; /* #11e2a3; #5082ff */
+	color: #404040 /* white */
 }
 
 .Author2 {
@@ -1794,7 +1798,7 @@ a {
 }
 
 .youtube {
-	background-color: #11e2a3;
+	background-color: #cdf8ea; /* #11e2a3; #5082ff */
 	margin: 0;
 	padding: 0;
 	margin-right: 10px;
@@ -1807,7 +1811,7 @@ a {
 
 .youtube p {
 	padding: 9px 14px;
-	color: white;
+	color: #404040; /*white; */
 }
 
 .source {
