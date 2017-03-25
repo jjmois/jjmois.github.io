@@ -1051,7 +1051,7 @@ body {
 }
 
 .buddy-list .buddy:hover {
-	color: #29e5ac;
+	color: #7fefce;;
 	background-color: rgba(225,225,225,0.2);
 }
 
@@ -1127,7 +1127,7 @@ body {
 }
 
 .selected h1 {
-	color: #7fefce;
+	color: #29e5ac;
 }
 
 .selected h1, .selected h2 {
@@ -1308,7 +1308,7 @@ textarea:focus, input:focus{
 }
 
 .Author1 a, .Author1 a:visited {
-	color: white; /* #fff */
+	color: #404040;
 }
 
 .Author2 a, .Author2 a:visited {
@@ -1815,7 +1815,7 @@ a {
 }
 
 .source {
-	color: white;
+	color: #404040;
 	opacity: 0.75;
 	font-size: 12px;
 	text-decoration: none;
