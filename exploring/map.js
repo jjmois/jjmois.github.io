@@ -38,10 +38,10 @@ d3.json(mapUrl, function (topo) {
 		var dataset = response.features.filter(function (e) {
 			return e.geometry;
 		});
-		// scale of bubbles from 5px - 30px
+		// scale of bubbles from 4px - 32px
 		var massScale = d3.scale.pow().exponent(0.8).domain([1, d3.max(dataset.map(function (e) {
 			return +e.properties.mass;
-		}))]).rangeRound([5, 30]);
+		}))]).rangeRound([4, 32]);
 
 		var strikes = worldMap.selectAll('circle').data(dataset).enter().append('circle').attr('class', 'strike').attr('cx', function (d) {
 			return projection(d.geometry.coordinates)[0];
