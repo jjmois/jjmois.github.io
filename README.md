@@ -26,13 +26,6 @@ http://goodnightjj.github.io
 
 ----
 
-<h1 align="center">this is h1</h1>
-
-<p align="center">
-  <a href="#"><img src="https://cloud.githubusercontent.com/assets/85783/15560157/af4a1abc-229d-11e6-9a3d-6c3f4b81220b.png"></a>
-</p>
-<h3 align="center"><a href="#">centered link</a></h3>
-
 [![UI Kit Preview](https://cloud.githubusercontent.com/assets/85783/24780081/69e09d76-1ae9-11e7-8f2b-ea30fc91ec51.jpg)](https://www.google.com)
 
 ----
