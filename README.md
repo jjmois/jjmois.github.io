@@ -1,4 +1,5 @@
 ## branch
+
 - if username.github.io, use master
 - if custom domain url, use gh-pages
 
@@ -30,12 +31,11 @@ http://goodnightjj.github.io
 
 ----
 
-this is a link to [Sketch](https://www.sketchapp.com).
+## License
+
+All icons and images are licensed under
+[Creative Commons Attribution - No Derivatives 4.0](https://github.com/salesforce-ux/licenses/blob/master/LICENSE-icons-images.txt)
 
 1. **Bullet 1** one 
 2. **Bullet 2:** two
 3. **Bullet 3:** three
-
-## License
-
-All icons and images are licensed under [Creative Commons Attribution - No Derivatives 4.0](https://github.com/salesforce-ux/licenses/blob/master/LICENSE-icons-images.txt)
