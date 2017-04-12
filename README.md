@@ -2,6 +2,8 @@
 - if username.github.io, use master
 - if custom domain url, use gh-pages
 
+----
+
 ## dns settings
 
 ### bluehost
@@ -17,54 +19,30 @@ github ip:
 192.30.252.153
 192.30.252.154
 
+----
+
 ## backup
 http://goodnightjj.github.io
 
-<h1 align="center">Lightning Design System UI Kit</h1>
+----
+
+<h1 align="center">this is h1</h1>
 
 <p align="center">
-<a href="https://github.com/salesforce-ux/design-system-ui-kit/archive/master.zip"><img src="https://cloud.githubusercontent.com/assets/85783/15560157/af4a1abc-229d-11e6-9a3d-6c3f4b81220b.png" alt="Design System UI Kit" /></a>
-<br />
-<br />
-A <a href="https://www.sketchapp.com/">Sketch</a> file of common design patterns from the <a href="https://www.lightningdesignsystem.com">Lightning Design System</a>.
-<br />
+  <a href="#"><img src="https://cloud.githubusercontent.com/assets/85783/15560157/af4a1abc-229d-11e6-9a3d-6c3f4b81220b.png"></a>
 </p>
-<h3 align="center"><a href="https://github.com/salesforce-ux/design-system-ui-kit/archive/master.zip">» Download the latest version «</a></h3>
-<br />
+<h3 align="center"><a href="#">centered link</a></h3>
 
-[![UI Kit Preview](https://cloud.githubusercontent.com/assets/85783/24780081/69e09d76-1ae9-11e7-8f2b-ea30fc91ec51.jpg)](https://github.com/salesforce-ux/design-system-ui-kit/archive/master.zip)
-
+[![UI Kit Preview](https://cloud.githubusercontent.com/assets/85783/24780081/69e09d76-1ae9-11e7-8f2b-ea30fc91ec51.jpg)](https://www.google.com)
 
 ----
 
-## Requirements
+this is a link to [Sketch](https://www.sketchapp.com).
 
-### Sketch
-
-Download the most recent version of [Sketch](https://www.sketchapp.com/).
-
-### Salesforce Sans fonts
-
-1. [Download the Design System Zip](https://www.lightningdesignsystem.com/resources/downloads/)
-2. Find the fonts located in the `/assets/fonts` directory
-3. Install the fonts on your system
-
-----
-
-## Contribute!
-
-The SLDS team welcomes your help in maintaining and growing this UI kit. 
-
-Here are a few of the kinds of contributions we are looking for:
-
-1. **Bug fixes:** fixing goofs in the Sketch file where what it has for a component doesn’t match what we are displaying for that component in the code-based documentation 
-2. **New Pattern:** sharing your design for arranging several components into a useful UI widget
-3. **New Template:** sharing a more complex design that contains components and patterns arranged into an entire screen layout
-
-### Got something to add?
-
-Great! Please take a look at our [contribution guidelines](https://github.com/salesforce-ux/design-system-ui-kit/blob/master/CONTRIBUTING.md) for instructions on how to proceed.
+1. **Bullet 1** one 
+2. **Bullet 2:** two
+3. **Bullet 3:** three
 
 ## License
 
-All icons and images are licensed under [Creative Commons Attribution-NoDerivatives 4.0](https://github.com/salesforce-ux/licenses/blob/master/LICENSE-icons-images.txt)
+All icons and images are licensed under [Creative Commons Attribution - No Derivatives 4.0](https://github.com/salesforce-ux/licenses/blob/master/LICENSE-icons-images.txt)
