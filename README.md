@@ -27,14 +27,14 @@ http://goodnightjj.github.io
 
 ----
 
-[![cat preview](http://www.jjmois.com/img/cat.gif)](http://www.jjmois.com/img/cat.gif)
+[![cat preview](http://www.jjmois.com/img/cat.png)](http://www.jjmois.com/img/cat.png)
 
 ----
 
 ## License
 
 All icons and images are licensed under
-[Creative Commons Attribution - No Derivatives 4.0](http://www.jjmois.com/img/cat.gif)
+[Creative Commons Attribution - No Derivatives 4.0](http://www.jjmois.com/img/cat.png)
 
 1. **Bullet 1** one 
 2. **Bullet 2:** two
