@@ -27,14 +27,14 @@ http://goodnightjj.github.io
 
 ----
 
-[![UI Kit Preview](https://cloud.githubusercontent.com/assets/85783/24780081/69e09d76-1ae9-11e7-8f2b-ea30fc91ec51.jpg)](https://www.google.com)
+[![cat preview](http://www.jjmois.com/img/cat.gif)](http://www.jjmois.com/img/cat.gif)
 
 ----
 
 ## License
 
 All icons and images are licensed under
-[Creative Commons Attribution - No Derivatives 4.0](https://github.com/salesforce-ux/licenses/blob/master/LICENSE-icons-images.txt)
+[Creative Commons Attribution - No Derivatives 4.0](http://www.jjmois.com/img/cat.gif)
 
 1. **Bullet 1** one 
 2. **Bullet 2:** two
