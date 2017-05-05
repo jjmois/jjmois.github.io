@@ -453,7 +453,7 @@
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-95.369803, 29.760427]},
-			"properties": {"mass": "1","name": "Houston, TX","year": "2017","recclass": "2017"
+			"properties": {"mass": "2","name": "Houston, TX","year": "2017","recclass": "2017"
 			}
 		},
 		{
