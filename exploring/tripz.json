@@ -407,16 +407,6 @@
 			}
 		},
 		{
-			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.3437, 38.279932]},
-			"properties": {"mass": "5","name": "Napa, CA","year": "2012","recclass": "2012, 2014, 2015, 2016, 2017"
-			}
-		},
-		{
-			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-122.030796, 36.974117]},
-			"properties": {"mass": "5","name": "Santa Cruz, CA","year": "2010","recclass": "2010, 2014, 2015, 2016, 2017"
-			}
-		},
-		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-119.018712, 35.373292]},
 			"properties": {"mass": "4","name": "Bakersfield, CA","year": "2013","recclass": "2013, 2014, 2015, 2016"
 			}
@@ -448,17 +438,17 @@
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-97.743061, 30.267153]},
-			"properties": {"mass": "1","name": "Austin, TX","year": "2017","recclass": "2017"
+			"properties": {"mass": "1","name": "Austin, TX","year": "2016","recclass": "2016"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-95.369803, 29.760427]},
-			"properties": {"mass": "2","name": "Houston, TX","year": "2017","recclass": "2017"
+			"properties": {"mass": "2","name": "Houston, TX","year": "2016","recclass": "2016, 2017"
 			}
 		},
 		{
 			"type": "Feature", "geometry": {"type": "Point", "coordinates": [-80.191790, 25.761680]},
-			"properties": {"mass": "1","name": "Maimi, FL","year": "2016","recclass": "2016"
+			"properties": {"mass": "1","name": "Miami, FL","year": "2016","recclass": "2016"
 			}
 		},
 		{
