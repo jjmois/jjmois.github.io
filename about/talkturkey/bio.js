@@ -55,6 +55,7 @@
 		'Enter the Void.'.link('javascript:window.location.reload(true)'),
 		'Lefty, Colorblind'.link('javascript:window.location.reload(true)'),
 		'Don’t try to be original. Just try to be nice.'.link('javascript:window.location.reload(true)'),
+		'Not minimalist. Purist.'.link('javascript:window.location.reload(true)'),
 		'Simplicity.'.link('javascript:window.location.reload(true)'),
 		'Left-handed.'.link('javascript:window.location.reload(true)'),
 		'Humanity.'.link('javascript:window.location.reload(true)'),
